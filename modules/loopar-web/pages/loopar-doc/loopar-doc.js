@@ -1,10 +1,10 @@
 
 'use strict';
 
-import { BaseDocument } from 'loopar';
+import {BaseDocument} from 'loopar';
 
 export default class LooparDoc extends BaseDocument {
-    constructor(props) {
+    constructor(props){
         super(props);
     }
 }

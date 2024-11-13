@@ -3,7 +3,7 @@
 
 import WebContext from '@context/web-context';
 
-export default class looparblogView extends WebContext {
+export default class LooparBlogView extends WebContext {
     constructor(props){
         super(props);
     }
