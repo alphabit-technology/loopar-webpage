@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "1.0.3"
+    "version": "1.0.8"
   },
   "documents": [
     {
@@ -16,18 +16,18 @@
           "path": "/apps/loopar/modules/core/entities/module",
           "documents": [
             {
-              "id": 51,
+              "id": 53,
               "name": "loopar-web",
               "data": {
                 "__document_status__": "Active",
-                "id": 51,
+                "id": 53,
                 "name": "loopar-web",
                 "description": "Loopar WebPage",
                 "app_name": "loopar-webpage",
                 "module_group": "modules",
                 "icon": "Infinity",
                 "in_sidebar": 1,
-                "deleted_at": "2024-12-03 20:50:09"
+                "deleted_at": "2024-12-04 22:25:21"
               },
               "requires": []
             }
@@ -40,12 +40,12 @@
           "path": "/apps/loopar/modules/core/entities/app",
           "documents": [
             {
-              "id": 64,
+              "id": 66,
               "name": "loopar-webpage",
               "data": {
                 "__document_status__": "Active",
-                "id": 64,
-                "deleted_at": "2024-12-03 20:50:09",
+                "id": 66,
+                "deleted_at": "2024-12-04 22:25:21",
                 "type": "Web App",
                 "logo_width": "2",
                 "has_footer": 0,
@@ -54,75 +54,75 @@
                 "login_button": 0,
                 "menu_items": [
                   {
-                    "parent_id": "64",
+                    "parent_id": "66",
                     "parent_document": "5",
                     "__document_status__": "Active",
                     "id": 1,
-                    "name": "oksojE7mgRFwDBJ",
-                    "page": "Loopar Introduction",
-                    "link": "Doc",
-                    "parent_menu": null,
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2024-12-03 20:50:08"
-                  },
-                  {
-                    "parent_id": "64",
-                    "parent_document": "5",
-                    "__document_status__": "Active",
-                    "id": 2,
-                    "name": "b66Gj5o0x6YFOKR",
-                    "page": "Loopar Introduction",
-                    "link": "Introduction",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2024-12-03 20:50:08"
-                  },
-                  {
-                    "parent_id": "64",
-                    "parent_document": "5",
-                    "__document_status__": "Active",
-                    "id": 3,
-                    "name": "ZTOG38iF2YCrVJ7",
-                    "page": "Getting Started",
-                    "link": "Getting Started",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2024-12-03 20:50:08"
-                  },
-                  {
-                    "parent_id": "64",
-                    "parent_document": "5",
-                    "__document_status__": "Active",
-                    "id": 4,
-                    "name": "N7pCBxrNmy4UA1d",
+                    "name": "LS7rAL6P5j3nyfx",
                     "page": "Loopar Home",
                     "link": "Home",
                     "parent_menu": null,
                     "document_parent": null,
                     "document_parent_name": null,
-                    "deleted_at": "2024-12-03 20:50:08"
+                    "deleted_at": "2024-12-04 22:25:05"
                   },
                   {
-                    "parent_id": "64",
+                    "parent_id": "66",
+                    "parent_document": "5",
+                    "__document_status__": "Active",
+                    "id": 2,
+                    "name": "Pq1yx9RBXLpn3g8",
+                    "page": "Loopar Introduction",
+                    "link": "Doc",
+                    "parent_menu": null,
+                    "document_parent": null,
+                    "document_parent_name": null,
+                    "deleted_at": "2024-12-04 22:25:05"
+                  },
+                  {
+                    "parent_id": "66",
+                    "parent_document": "5",
+                    "__document_status__": "Active",
+                    "id": 3,
+                    "name": "qt1Q91i5S3O0xhX",
+                    "page": "Loopar Introduction",
+                    "link": "Introduction",
+                    "parent_menu": "Doc",
+                    "document_parent": null,
+                    "document_parent_name": null,
+                    "deleted_at": "2024-12-04 22:25:05"
+                  },
+                  {
+                    "parent_id": "66",
+                    "parent_document": "5",
+                    "__document_status__": "Active",
+                    "id": 4,
+                    "name": "T3ZB1C6c3JF4x9G",
+                    "page": "Getting Started",
+                    "link": "Getting Started",
+                    "parent_menu": "Doc",
+                    "document_parent": null,
+                    "document_parent_name": null,
+                    "deleted_at": "2024-12-04 22:25:05"
+                  },
+                  {
+                    "parent_id": "66",
                     "parent_document": "5",
                     "__document_status__": "Active",
                     "id": 5,
-                    "name": "DYF51V4AELN3WKQ",
+                    "name": "hN1AusaJRh3QtWB",
                     "page": "Loopar Concepts",
                     "link": "Concepts",
                     "parent_menu": "Doc",
                     "document_parent": null,
                     "document_parent_name": null,
-                    "deleted_at": "2024-12-03 20:50:08"
+                    "deleted_at": "2024-12-04 22:25:05"
                   }
                 ],
                 "github_pass": "",
                 "name": "loopar-webpage",
                 "description": "Loopar WebPage",
-                "version": "1.0.2",
+                "version": "1.0.8",
                 "autor": "alfredrz2012@gmail.com"
               },
               "requires": [
