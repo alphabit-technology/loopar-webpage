@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "1.0.8"
+    "version": "1.0.10"
   },
   "documents": [
     {
@@ -122,7 +122,7 @@
                 "github_pass": "",
                 "name": "loopar-webpage",
                 "description": "Loopar WebPage",
-                "version": "1.0.8",
+                "version": "1.0.10",
                 "autor": "alfredrz2012@gmail.com"
               },
               "requires": [
