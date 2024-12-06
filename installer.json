@@ -27,7 +27,7 @@
                 "module_group": "modules",
                 "icon": "Infinity",
                 "in_sidebar": 1,
-                "deleted_at": "2024-12-04 22:25:21"
+                "deleted_at": "2024-12-05 22:48:39"
               },
               "requires": []
             }
@@ -45,7 +45,7 @@
               "data": {
                 "__document_status__": "Active",
                 "id": 66,
-                "deleted_at": "2024-12-04 22:25:21",
+                "deleted_at": "2024-12-05 22:48:39",
                 "type": "Web App",
                 "logo_width": "2",
                 "has_footer": 0,
@@ -58,65 +58,65 @@
                     "parent_document": "5",
                     "__document_status__": "Active",
                     "id": 1,
-                    "name": "LS7rAL6P5j3nyfx",
+                    "name": "PZ33rMOwsX67u2g",
                     "page": "Loopar Home",
                     "link": "Home",
                     "parent_menu": null,
                     "document_parent": null,
                     "document_parent_name": null,
-                    "deleted_at": "2024-12-04 22:25:05"
+                    "deleted_at": null
                   },
                   {
                     "parent_id": "66",
                     "parent_document": "5",
                     "__document_status__": "Active",
                     "id": 2,
-                    "name": "Pq1yx9RBXLpn3g8",
+                    "name": "d6MKEYTZmhbiytl",
                     "page": "Loopar Introduction",
                     "link": "Doc",
                     "parent_menu": null,
                     "document_parent": null,
                     "document_parent_name": null,
-                    "deleted_at": "2024-12-04 22:25:05"
+                    "deleted_at": null
                   },
                   {
                     "parent_id": "66",
                     "parent_document": "5",
                     "__document_status__": "Active",
                     "id": 3,
-                    "name": "qt1Q91i5S3O0xhX",
+                    "name": "e8xm3tTF70M7P3h",
                     "page": "Loopar Introduction",
                     "link": "Introduction",
                     "parent_menu": "Doc",
                     "document_parent": null,
                     "document_parent_name": null,
-                    "deleted_at": "2024-12-04 22:25:05"
+                    "deleted_at": null
                   },
                   {
                     "parent_id": "66",
                     "parent_document": "5",
                     "__document_status__": "Active",
                     "id": 4,
-                    "name": "T3ZB1C6c3JF4x9G",
+                    "name": "j913k6p3bQxUP5L",
                     "page": "Getting Started",
                     "link": "Getting Started",
                     "parent_menu": "Doc",
                     "document_parent": null,
                     "document_parent_name": null,
-                    "deleted_at": "2024-12-04 22:25:05"
+                    "deleted_at": null
                   },
                   {
                     "parent_id": "66",
                     "parent_document": "5",
                     "__document_status__": "Active",
                     "id": 5,
-                    "name": "hN1AusaJRh3QtWB",
+                    "name": "ws2qCAi3fgXDrbw",
                     "page": "Loopar Concepts",
                     "link": "Concepts",
                     "parent_menu": "Doc",
                     "document_parent": null,
                     "document_parent_name": null,
-                    "deleted_at": "2024-12-04 22:25:05"
+                    "deleted_at": null
                   }
                 ],
                 "github_pass": "",
