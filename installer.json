@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "1.1.17"
+    "version": "1.1.18"
   },
   "documents": [
     {
@@ -27,7 +27,7 @@
                 "module_group": "modules",
                 "icon": "Infinity",
                 "in_sidebar": 1,
-                "deleted_at": "2024-12-20 22:29:16"
+                "deleted_at": "2024-12-25 11:39:15"
               },
               "requires": []
             }
@@ -35,7 +35,7 @@
           "requires": []
         },
         {
-          "id": 5,
+          "id": 6,
           "name": "App",
           "path": "/apps/loopar/modules/core/entities/app",
           "documents": [
@@ -45,103 +45,18 @@
               "data": {
                 "__document_status__": "Active",
                 "id": 66,
-                "deleted_at": null,
+                "deleted_at": "2024-12-25 11:39:15",
                 "type": "Web App",
                 "logo_width": "2",
                 "has_footer": 0,
                 "has_copyright": 0,
                 "fixed": 1,
-                "menu_items": [
-                  {
-                    "parent_id": "66",
-                    "parent_document": "5",
-                    "__document_status__": "Active",
-                    "id": 1,
-                    "name": "Qlkqcso8QtjC9Ge",
-                    "page": "Getting Started",
-                    "link": "Getting Started",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": null
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "5",
-                    "__document_status__": "Active",
-                    "id": 2,
-                    "name": "yL0v37AejQfP2Fa",
-                    "page": "Loopar Home",
-                    "link": "Home",
-                    "parent_menu": null,
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": null
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "5",
-                    "__document_status__": "Active",
-                    "id": 3,
-                    "name": "vJiNxa8DI44H2O8",
-                    "page": "Loopar Introduction",
-                    "link": "Doc",
-                    "parent_menu": null,
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": null
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "5",
-                    "__document_status__": "Active",
-                    "id": 4,
-                    "name": "hOnxt9yED32WB04",
-                    "page": "Loopar Introduction",
-                    "link": "Introduction",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": null
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "5",
-                    "__document_status__": "Active",
-                    "id": 5,
-                    "name": "AK2eaZwiskVC40F",
-                    "page": "Loopar Concepts",
-                    "link": "Concepts",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": null
-                  }
-                ],
-                "menu_actions": [
-                  {
-                    "parent_id": "66",
-                    "parent_document": "5",
-                    "name": "nTIBeRG54mwZ7LM",
-                    "__document_status__": "Active",
-                    "id": 1,
-                    "icon": "XLogo",
-                    "action": "https://x.com/loopardev"
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "5",
-                    "name": "fcsFK384uv7TyxW",
-                    "__document_status__": "Active",
-                    "id": 2,
-                    "icon": "Github",
-                    "action": "https://github.com/alphabit-technology/loopar-framework.git"
-                  }
-                ],
+                "menu_items": [],
+                "menu_actions": [],
                 "github_pass": "",
                 "name": "loopar-webpage",
                 "description": "Loopar WebPage",
-                "version": "1.1.17",
+                "version": "1.1.18",
                 "autor": "alfredrz2012@gmail.com"
               },
               "requires": [
@@ -163,10 +78,10 @@
                       "search_fields": "name",
                       "title_fields": "name",
                       "resources": [],
-                      "deleted_at": "2024-12-20 22:29:16",
-                      "__created_at__": "2024-12-20 22:29:16",
-                      "__updated_at__": "2024-12-20 22:29:16",
-                      "__deleted_at__": "2024-12-20 22:29:16"
+                      "deleted_at": "2024-12-25 11:39:15",
+                      "__created_at__": "2024-12-25 11:39:15",
+                      "__updated_at__": "2024-12-25 11:39:15",
+                      "__deleted_at__": "2024-12-25 11:39:15"
                     }
                   ]
                 },
@@ -215,10 +130,10 @@
                   "search_fields": "name",
                   "title_fields": "name",
                   "resources": [],
-                  "deleted_at": "2024-12-20 22:29:16",
-                  "__created_at__": "2024-12-20 22:29:16",
-                  "__updated_at__": "2024-12-20 22:29:16",
-                  "__deleted_at__": "2024-12-20 22:29:16"
+                  "deleted_at": "2024-12-25 11:39:15",
+                  "__created_at__": "2024-12-25 11:39:15",
+                  "__updated_at__": "2024-12-25 11:39:15",
+                  "__deleted_at__": "2024-12-25 11:39:15"
                 }
               ]
             },
@@ -267,10 +182,10 @@
               "search_fields": "name",
               "title_fields": "name",
               "resources": [],
-              "deleted_at": "2024-12-20 22:29:16",
-              "__created_at__": "2024-12-20 22:29:16",
-              "__updated_at__": "2024-12-20 22:29:16",
-              "__deleted_at__": "2024-12-20 22:29:16"
+              "deleted_at": "2024-12-25 11:39:15",
+              "__created_at__": "2024-12-25 11:39:15",
+              "__updated_at__": "2024-12-25 11:39:15",
+              "__deleted_at__": "2024-12-25 11:39:15"
             }
           ]
         },
