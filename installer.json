@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "1.1.19"
+    "version": "1.1.20"
   },
   "documents": [
     {
@@ -27,7 +27,7 @@
                 "module_group": "modules",
                 "icon": "Infinity",
                 "in_sidebar": 1,
-                "deleted_at": "2024-12-26 21:41:37"
+                "deleted_at": "2024-12-26 21:49:06"
               },
               "requires": []
             }
@@ -45,7 +45,7 @@
               "data": {
                 "__document_status__": "Active",
                 "id": 66,
-                "deleted_at": null,
+                "deleted_at": "2024-12-26 21:49:06",
                 "type": "Web App",
                 "logo_width": "2",
                 "has_footer": 0,
@@ -141,7 +141,7 @@
                 "github_pass": "",
                 "name": "loopar-webpage",
                 "description": "Loopar WebPage",
-                "version": "1.1.19",
+                "version": "1.1.20",
                 "autor": "alfredrz2012@gmail.com"
               },
               "requires": [
@@ -163,10 +163,10 @@
                       "search_fields": "name",
                       "title_fields": "name",
                       "resources": [],
-                      "deleted_at": "2024-12-26 21:41:37",
-                      "__created_at__": "2024-12-26 21:41:37",
-                      "__updated_at__": "2024-12-26 21:41:37",
-                      "__deleted_at__": "2024-12-26 21:41:37"
+                      "deleted_at": "2024-12-26 21:49:06",
+                      "__created_at__": "2024-12-26 21:49:06",
+                      "__updated_at__": "2024-12-26 21:49:06",
+                      "__deleted_at__": "2024-12-26 21:49:06"
                     }
                   ]
                 },
@@ -215,10 +215,10 @@
                   "search_fields": "name",
                   "title_fields": "name",
                   "resources": [],
-                  "deleted_at": "2024-12-26 21:41:37",
-                  "__created_at__": "2024-12-26 21:41:37",
-                  "__updated_at__": "2024-12-26 21:41:37",
-                  "__deleted_at__": "2024-12-26 21:41:37"
+                  "deleted_at": "2024-12-26 21:49:06",
+                  "__created_at__": "2024-12-26 21:49:06",
+                  "__updated_at__": "2024-12-26 21:49:06",
+                  "__deleted_at__": "2024-12-26 21:49:06"
                 }
               ]
             },
@@ -267,10 +267,10 @@
               "search_fields": "name",
               "title_fields": "name",
               "resources": [],
-              "deleted_at": "2024-12-26 21:41:37",
-              "__created_at__": "2024-12-26 21:41:37",
-              "__updated_at__": "2024-12-26 21:41:37",
-              "__deleted_at__": "2024-12-26 21:41:37"
+              "deleted_at": "2024-12-26 21:49:06",
+              "__created_at__": "2024-12-26 21:49:06",
+              "__updated_at__": "2024-12-26 21:49:06",
+              "__deleted_at__": "2024-12-26 21:49:06"
             }
           ]
         },
