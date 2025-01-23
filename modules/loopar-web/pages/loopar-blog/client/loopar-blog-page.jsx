@@ -3,7 +3,7 @@
 
 import PageContext from '@context/page-context';
 
-export default class GettingStartedView extends PageContext {
+export default class LooparBlogView extends PageContext {
     constructor(props){
         super(props);
     }
