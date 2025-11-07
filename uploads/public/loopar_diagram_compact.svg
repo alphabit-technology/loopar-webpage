@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <radialGradient id="grad" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#4a6072" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#243948" stop-opacity="1"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+<circle cx="600.0" cy="600.0" r="380" fill="none" stroke="#bfc5ca" stroke-width="28" />
+<g filter="url(#soft)">
+<circle cx="600.0" cy="220.0" r="100" fill="url(#grad)" stroke="rgba(0,0,0,0.25)" stroke-width="3" />
+<text x="600.0" y="220.0" font-family="Segoe UI, Roboto, Arial" font-size="44" fill="white" text-anchor="middle" dominant-baseline="middle">React</text>
+</g>
+<g filter="url(#soft)">
+<circle cx="961.4014761921583" cy="482.57354213752" r="100" fill="url(#grad)" stroke="rgba(0,0,0,0.25)" stroke-width="3" />
+<text x="961.4014761921583" y="482.57354213752" font-family="Segoe UI, Roboto, Arial" font-size="44" fill="white" text-anchor="middle" dominant-baseline="middle">Vite</text>
+</g>
+<g filter="url(#soft)">
+<circle cx="823.3583958711398" cy="907.42645786248" r="100" fill="url(#grad)" stroke="rgba(0,0,0,0.25)" stroke-width="3" />
+<text x="823.3583958711398" y="907.42645786248" font-family="Segoe UI, Roboto, Arial" font-size="44" fill="white" text-anchor="middle" dominant-baseline="middle">Tailwind</text>
+</g>
+<g filter="url(#soft)">
+<circle cx="376.64160412886025" cy="907.42645786248" r="100" fill="url(#grad)" stroke="rgba(0,0,0,0.25)" stroke-width="3" />
+<text x="376.64160412886025" y="907.42645786248" font-family="Segoe UI, Roboto, Arial" font-size="44" fill="white" text-anchor="middle" dominant-baseline="middle">Node JS</text>
+</g>
+<g filter="url(#soft)">
+<circle cx="238.59852380784162" cy="482.57354213752" r="100" fill="url(#grad)" stroke="rgba(0,0,0,0.25)" stroke-width="3" />
+<text x="238.59852380784162" y="467.67354213752003" font-family="Segoe UI, Roboto, Arial" fill="white" text-anchor="middle"><tspan x="238.59852380784162" dy="0" text-anchor="middle" font-size="36">Chat</tspan><tspan x="238.59852380784162" dy="37.800000000000004" text-anchor="middle" font-size="36">GPT</tspan></text>
+</g>
+<g filter="url(#soft)">
+<circle cx="600.0" cy="600.0" r="260" fill="url(#grad)" stroke="rgba(0,0,0,0.25)" stroke-width="4" />
+<text x="600.0" y="600.0" font-family="Segoe UI, Roboto, Arial" font-size="86" fill="white" text-anchor="middle" dominant-baseline="middle">Loopar</text>
+</g>
+</svg>

@@ -1,424 +1,212 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "1.1.22"
+    "version": "1.2.11"
   },
-  "documents": [
-    {
-      "id": 2,
-      "entity": "Entity",
-      "path": "/apps/loopar/modules/core/entities/entity",
-      "name": "Entity",
-      "documents": [
+  "documents": {
+    "Builder:Page Builder": {
+      "app": "loopar"
+    },
+    "Entity:Module": {
+      "app": "loopar"
+    },
+    "Entity:App": {
+      "app": "loopar"
+    },
+    "App:loopar-webpage": {
+      "__document_status__": "Active",
+      "id": 71,
+      "deleted_at": null,
+      "type": "Web App",
+      "name": "loopar-webpage",
+      "description": "Loopar WebPage",
+      "version": "1.2.11",
+      "autor": "alfredrz2012@gmail.com",
+      "icon": "Infinity",
+      "spacing": "4",
+      "col_padding": "p-9",
+      "col_margin": "m-0",
+      "logo": "[{\"name\":\"logo.svg\",\"type\":\"image\"}]",
+      "logo_dark": "[{\"name\":\"logo.svg\",\"type\":\"image\"}]",
+      "logo_mini": "[{\"name\":\"logo-dark-min.svg\",\"type\":\"image\"}]",
+      "logo_mini_dark": "[{\"name\":\"logo-dark-min.svg\",\"type\":\"image\"}]",
+      "logo_width": "2",
+      "has_footer": 0,
+      "has_copyright": 0,
+      "fixed": 1,
+      "rounded": "full",
+      "solid": 1,
+      "opacity": "",
+      "menu_items": [
         {
-          "id": 4,
-          "name": "Module",
-          "path": "/apps/loopar/modules/core/entities/module",
-          "documents": [
-            {
-              "id": 53,
-              "name": "loopar-web",
-              "data": {
-                "__document_status__": "Active",
-                "id": 53,
-                "name": "loopar-web",
-                "description": "Loopar WebPage",
-                "app_name": "loopar-webpage",
-                "module_group": "modules",
-                "icon": "Infinity",
-                "in_sidebar": 1,
-                "deleted_at": "2025-01-24 20:54:50"
-              },
-              "requires": []
-            }
-          ],
-          "requires": []
+          "parent_id": "71",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 1,
+          "name": "bS4600GibBn8Ogr",
+          "page": "Loopar Home",
+          "link": "Home",
+          "parent_menu": "",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-11-06 20:49:50"
         },
         {
+          "parent_id": "71",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 2,
+          "name": "lcmoM7FEJg4x6Uk",
+          "page": "Loopar Introduction",
+          "link": "Doc",
+          "parent_menu": "",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-11-06 20:49:50"
+        },
+        {
+          "parent_id": "71",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 3,
+          "name": "EZcbRXrp8Da70Co",
+          "page": "Loopar Introduction",
+          "link": "Introduction",
+          "parent_menu": "Doc",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-11-06 20:49:50"
+        },
+        {
+          "parent_id": "71",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 4,
+          "name": "I1FIav0SPeoupXj",
+          "page": "Getting Started",
+          "link": "Getting Started",
+          "parent_menu": "Doc",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-11-06 20:49:50"
+        },
+        {
+          "parent_id": "71",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 5,
+          "name": "PTDmGib62QSAy84",
+          "page": "Loopar Concepts",
+          "link": "Concepts",
+          "parent_menu": "Doc",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-11-06 20:49:50"
+        },
+        {
+          "parent_id": "71",
+          "parent_document": "App",
+          "__document_status__": "Active",
           "id": 6,
-          "name": "App",
-          "path": "/apps/loopar/modules/core/entities/app",
-          "documents": [
-            {
-              "id": 66,
-              "name": "loopar-webpage",
-              "data": {
-                "__document_status__": "Active",
-                "id": 66,
-                "deleted_at": "2025-01-24 20:54:50",
-                "type": "Web App",
-                "name": "loopar-webpage",
-                "description": "Loopar WebPage",
-                "version": "1.1.22",
-                "autor": "alfredrz2012@gmail.com",
-                "icon": "Infinity",
-                "spacing": "4",
-                "col_padding": "p-9",
-                "col_margin": "m-0",
-                "logo": "[{\"name\":\"logo.svg\",\"src\":\"https://loopar.io/assets/images/logo.svg\",\"type\":\"image\",\"extention\":\"svg\",\"previewSrc\":\"https://loopar.io/assets/images/logo.svg\"}]",
-                "logo_dark": "[{\"name\":\"logo.svg\",\"src\":\"https://loopar.io/assets/images/logo.svg\",\"type\":\"image\",\"extention\":\"svg\",\"previewSrc\":\"https://loopar.io/assets/images/logo.svg\"}]",
-                "logo_mini": "[{\"name\":\"logo-dark-min.svg\",\"src\":\"https://loopar.io/assets/images/logo-dark-min.svg\",\"type\":\"image\",\"extention\":\"svg\",\"previewSrc\":\"https://loopar.io/assets/images/logo-dark-min.svg\"}]",
-                "logo_mini_dark": "[{\"name\":\"logo-dark-min.svg\",\"src\":\"https://loopar.io/assets/images/logo-dark-min.svg\",\"type\":\"image\",\"extention\":\"svg\",\"previewSrc\":\"https://loopar.io/assets/images/logo-dark-min.svg\"}]",
-                "logo_width": "2",
-                "has_footer": 0,
-                "has_copyright": 0,
-                "fixed": 1,
-                "menu_items": [
-                  {
-                    "parent_id": "66",
-                    "parent_document": "App",
-                    "__document_status__": "Active",
-                    "id": 1,
-                    "name": "dvdVFqYRX0IP16t",
-                    "page": "Loopar Home",
-                    "link": "Home",
-                    "parent_menu": null,
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2025-01-23 21:26:40"
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "App",
-                    "__document_status__": "Active",
-                    "id": 2,
-                    "name": "LrOq2tS1u043LIC",
-                    "page": "Loopar Introduction",
-                    "link": "Doc",
-                    "parent_menu": null,
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2025-01-23 21:26:40"
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "App",
-                    "__document_status__": "Active",
-                    "id": 3,
-                    "name": "fymSAIJckgehZvr",
-                    "page": "Loopar Introduction",
-                    "link": "Introduction",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2025-01-23 21:26:40"
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "App",
-                    "__document_status__": "Active",
-                    "id": 4,
-                    "name": "RTcEY6HF3fXrM7x",
-                    "page": "Getting Started",
-                    "link": "Getting Started",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2025-01-23 21:26:40"
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "App",
-                    "__document_status__": "Active",
-                    "id": 5,
-                    "name": "v3KM7S8rcN0mF1E",
-                    "page": "Loopar Concepts",
-                    "link": "Concepts",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2025-01-23 21:26:40"
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "App",
-                    "__document_status__": "Active",
-                    "id": 6,
-                    "name": "a234YWPD7kT5H69",
-                    "page": "Learn",
-                    "link": "Learn",
-                    "parent_menu": "Doc",
-                    "document_parent": null,
-                    "document_parent_name": null,
-                    "deleted_at": "2025-01-23 21:26:40"
-                  }
-                ],
-                "menu_actions": [
-                  {
-                    "parent_id": "66",
-                    "parent_document": "App",
-                    "name": "KNl5DF2p10wfyx0",
-                    "__document_status__": "Active",
-                    "id": 1,
-                    "icon": "XLogo",
-                    "action": "https://x.com/loopardev"
-                  },
-                  {
-                    "parent_id": "66",
-                    "parent_document": "App",
-                    "name": "JsV15w1vPd5h9E7",
-                    "__document_status__": "Active",
-                    "id": 2,
-                    "icon": "Github",
-                    "action": "https://github.com/alphabit-technology/loopar-framework.git"
-                  }
-                ],
-                "github_pass": ""
-              },
-              "requires": [
-                {
-                  "entity": "Entity",
-                  "documents": [
-                    {
-                      "id": 17,
-                      "name": "Menu Item",
-                      "module": "developer",
-                      "default_list_view": "List",
-                      "is_single": 0,
-                      "is_static": 0,
-                      "include_in_installer": 0,
-                      "is_child": 1,
-                      "is_builder": 0,
-                      "__document_status__": "Active",
-                      "doc_structure": "[{\"element\":\"input\",\"data\":{\"name\":\"parent_id\",\"label\":\"Parent ID\",\"type\":\"integer\",\"hidden\":1,\"key\":\"7cktr6vd2\"},\"elements\":[]},{\"element\":\"input\",\"data\":{\"name\":\"parent_document\",\"label\":\"Parent Entity\",\"type\":\"integer\",\"hidden\":1,\"key\":\"cv01nds1p\"},\"elements\":[]},{\"element\":\"row\",\"data\":{\"name\":\"name_and_status_container\",\"key\":\"mywywotbx\",\"label\":\"Row1\"},\"elements\":[{\"element\":\"select\",\"data\":{\"label\":\"Status\",\"name\":\"__document_status__\",\"not_validate_type\":0,\"required\":0,\"unique\":0,\"set_only_time\":0,\"readonly\":0,\"in_list_view\":0,\"searchable\":0,\"options\":\"Active\\nInactive\\nDraft\\nPending\\nApproved\\nRejected\\nArchived\\nDeleted\",\"default_value\":\"Active\",\"id\":\"select54_el144898968120\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"hidden\":1,\"disabled\":0,\"collapsed\":0,\"key\":\"hxwjdw98l\"},\"elements\":[]},{\"element\":\"id\",\"data\":{\"name\":\"id\",\"label\":\"ID\",\"type\":\"integer\",\"required\":1,\"hidden\":1,\"in_list_view\":0,\"key\":\"ef8yv23uj\",\"background_image\":[]},\"elements\":[]}]},{\"element\":\"input\",\"data\":{\"name\":\"name\",\"label\":\"Name\",\"type\":\"text\",\"required\":1,\"in_list_view\":1,\"set_only_time\":1,\"unique\":1,\"id\":\"input339_el5561128133\",\"searchable\":1,\"key\":\"xcq0etwee\"},\"elements\":[]},{\"element\":\"row\",\"data\":{\"name\":\"row1_el68059727519\",\"id\":\"row20_el74198279416\",\"label\":\"Row1\",\"key\":\"wr32upkv9\",\"layout\":\"[25,25,25,25]\"},\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col1_el109499672148\",\"id\":\"col41_el728905163266\",\"label\":\"Col1\",\"key\":\"w8gmgh896\"},\"elements\":[{\"element\":\"select\",\"data\":{\"label\":\"Page\",\"name\":\"page\",\"required\":1,\"in_list_view\":1,\"options\":\"Page Builder\",\"id\":\"select146_el292406485166\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"key\":\"zf0m63d4b\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col651_el50020111152\",\"id\":\"col42_el728335875431\",\"label\":\"Col651\",\"key\":\"isow3muwk\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Label\",\"name\":\"link\",\"required\":1,\"in_list_view\":1,\"id\":\"input334_el1621604437\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"key\":\"mz0qvr80y\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"key\":\"kfu491tkp\",\"label\":\"Col481\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Parent\",\"key\":\"input10_el787303579960\",\"name\":\"parent_menu\",\"in_list_view\":1,\"searchable\":1},\"elements\":[]}]}]},{\"element\":\"row\",\"data\":{\"name\":\"row33_el687443337500\",\"id\":\"row21_el146992447937\",\"label\":\"Row33\",\"key\":\"3e2x3828r\",\"layout\":\"[50,50]\"},\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col96_el79149827367\",\"id\":\"col43_el177368948609\",\"label\":\"Col96\",\"key\":\"tzu2rluo9\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"document_parent\",\"id\":\"input336_el36531377246\",\"label\":\"Document Parent\",\"hidden\":1,\"key\":\"kampmo65u\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col131_el7446029241\",\"id\":\"col44_el217375041008\",\"label\":\"Col131\",\"key\":\"29936mpq1\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"document_parent_name\",\"id\":\"input338_el71356327106\",\"label\":\"Dcoument Parent Name\",\"hidden\":1,\"key\":\"4uubzj2fy\"},\"elements\":[]}]}]},{\"element\":\"date_time\",\"data\":{\"name\":\"deleted_at\",\"label\":\"Deleted At\",\"hidden\":1,\"id\":\"date_time95_el145559974942\",\"key\":\"zoftjjexj\"},\"elements\":[]}]",
-                      "search_fields": "name",
-                      "title_fields": "name",
-                      "resources": [],
-                      "deleted_at": null,
-                      "__created_at__": null,
-                      "__updated_at__": null,
-                      "__deleted_at__": null
-                    }
-                  ]
-                },
-                {
-                  "entity": "Entity",
-                  "documents": [
-                    {
-                      "id": 1,
-                      "name": "Menu Action",
-                      "module": "developer",
-                      "default_list_view": "List",
-                      "is_single": 0,
-                      "is_static": 0,
-                      "include_in_installer": 0,
-                      "is_child": 1,
-                      "is_builder": 0,
-                      "__document_status__": "Active",
-                      "doc_structure": "[{\"element\":\"input\",\"data\":{\"name\":\"parent_id\",\"label\":\"Parent ID\",\"type\":\"integer\",\"hidden\":1,\"key\":\"gzc5az4fd\"}},{\"element\":\"input\",\"data\":{\"name\":\"parent_document\",\"label\":\"Parent Entity\",\"type\":\"integer\",\"hidden\":1,\"key\":\"wj56qfc8x\"}},{\"element\":\"row\",\"data\":{\"name\":\"name_and_status_container\",\"key\":\"yx51pde23\",\"label\":\"Row1\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"name\",\"label\":\"Name\",\"required\":1,\"type\":\"text\",\"in_list_view\":1,\"set_only_time\":1,\"unique\":1,\"searchable\":1,\"key\":\"o6grgzgxq\"}},{\"element\":\"select\",\"data\":{\"name\":\"__document_status__\",\"label\":\"Status\",\"options\":\"Active\\nInactive\\nDraft\\nPending\\nApproved\\nRejected\\nArchived\\nDeleted\",\"default_value\":\"Active\",\"hidden\":1,\"key\":\"dkvbw54tm\"}},{\"element\":\"id\",\"data\":{\"name\":\"id\",\"label\":\"ID\",\"type\":\"integer\",\"required\":1,\"in_list_view\":0,\"hidden\":1,\"key\":\"agl78wb9m\"}}]},{\"element\":\"row\",\"data\":{\"label\":\"Row1\",\"key\":\"row1_el100178803653\"},\"elements\":[{\"element\":\"col\",\"data\":{\"label\":\"Col1\",\"key\":\"col1_el53286929095\"},\"elements\":[{\"element\":\"icon_input\",\"data\":{\"label\":\"Icon\",\"key\":\"icon_input1_el394980504043\",\"name\":\"icon\",\"in_list_view\":1,\"searchable\":1,\"required\":1},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"label\":\"Col3\",\"key\":\"col3_el660482372712\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Action\",\"key\":\"input28_el919563649838\",\"name\":\"action\",\"required\":1,\"in_list_view\":1,\"searchable\":1},\"elements\":[]}]}]}]",
-                      "resources": [],
-                      "deleted_at": null,
-                      "__created_at__": null,
-                      "__updated_at__": null,
-                      "__deleted_at__": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "requires": [
-            {
-              "entity": "Entity",
-              "documents": [
-                {
-                  "id": 17,
-                  "name": "Menu Item",
-                  "module": "developer",
-                  "default_list_view": "List",
-                  "is_single": 0,
-                  "is_static": 0,
-                  "include_in_installer": 0,
-                  "is_child": 1,
-                  "is_builder": 0,
-                  "__document_status__": "Active",
-                  "doc_structure": "[{\"element\":\"input\",\"data\":{\"name\":\"parent_id\",\"label\":\"Parent ID\",\"type\":\"integer\",\"hidden\":1,\"key\":\"7cktr6vd2\"},\"elements\":[]},{\"element\":\"input\",\"data\":{\"name\":\"parent_document\",\"label\":\"Parent Entity\",\"type\":\"integer\",\"hidden\":1,\"key\":\"cv01nds1p\"},\"elements\":[]},{\"element\":\"row\",\"data\":{\"name\":\"name_and_status_container\",\"key\":\"mywywotbx\",\"label\":\"Row1\"},\"elements\":[{\"element\":\"select\",\"data\":{\"label\":\"Status\",\"name\":\"__document_status__\",\"not_validate_type\":0,\"required\":0,\"unique\":0,\"set_only_time\":0,\"readonly\":0,\"in_list_view\":0,\"searchable\":0,\"options\":\"Active\\nInactive\\nDraft\\nPending\\nApproved\\nRejected\\nArchived\\nDeleted\",\"default_value\":\"Active\",\"id\":\"select54_el144898968120\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"hidden\":1,\"disabled\":0,\"collapsed\":0,\"key\":\"hxwjdw98l\"},\"elements\":[]},{\"element\":\"id\",\"data\":{\"name\":\"id\",\"label\":\"ID\",\"type\":\"integer\",\"required\":1,\"hidden\":1,\"in_list_view\":0,\"key\":\"ef8yv23uj\",\"background_image\":[]},\"elements\":[]}]},{\"element\":\"input\",\"data\":{\"name\":\"name\",\"label\":\"Name\",\"type\":\"text\",\"required\":1,\"in_list_view\":1,\"set_only_time\":1,\"unique\":1,\"id\":\"input339_el5561128133\",\"searchable\":1,\"key\":\"xcq0etwee\"},\"elements\":[]},{\"element\":\"row\",\"data\":{\"name\":\"row1_el68059727519\",\"id\":\"row20_el74198279416\",\"label\":\"Row1\",\"key\":\"wr32upkv9\",\"layout\":\"[25,25,25,25]\"},\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col1_el109499672148\",\"id\":\"col41_el728905163266\",\"label\":\"Col1\",\"key\":\"w8gmgh896\"},\"elements\":[{\"element\":\"select\",\"data\":{\"label\":\"Page\",\"name\":\"page\",\"required\":1,\"in_list_view\":1,\"options\":\"Page Builder\",\"id\":\"select146_el292406485166\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"key\":\"zf0m63d4b\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col651_el50020111152\",\"id\":\"col42_el728335875431\",\"label\":\"Col651\",\"key\":\"isow3muwk\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Label\",\"name\":\"link\",\"required\":1,\"in_list_view\":1,\"id\":\"input334_el1621604437\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"key\":\"mz0qvr80y\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"key\":\"kfu491tkp\",\"label\":\"Col481\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Parent\",\"key\":\"input10_el787303579960\",\"name\":\"parent_menu\",\"in_list_view\":1,\"searchable\":1},\"elements\":[]}]}]},{\"element\":\"row\",\"data\":{\"name\":\"row33_el687443337500\",\"id\":\"row21_el146992447937\",\"label\":\"Row33\",\"key\":\"3e2x3828r\",\"layout\":\"[50,50]\"},\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col96_el79149827367\",\"id\":\"col43_el177368948609\",\"label\":\"Col96\",\"key\":\"tzu2rluo9\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"document_parent\",\"id\":\"input336_el36531377246\",\"label\":\"Document Parent\",\"hidden\":1,\"key\":\"kampmo65u\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col131_el7446029241\",\"id\":\"col44_el217375041008\",\"label\":\"Col131\",\"key\":\"29936mpq1\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"document_parent_name\",\"id\":\"input338_el71356327106\",\"label\":\"Dcoument Parent Name\",\"hidden\":1,\"key\":\"4uubzj2fy\"},\"elements\":[]}]}]},{\"element\":\"date_time\",\"data\":{\"name\":\"deleted_at\",\"label\":\"Deleted At\",\"hidden\":1,\"id\":\"date_time95_el145559974942\",\"key\":\"zoftjjexj\"},\"elements\":[]}]",
-                  "search_fields": "name",
-                  "title_fields": "name",
-                  "resources": [],
-                  "deleted_at": null,
-                  "__created_at__": null,
-                  "__updated_at__": null,
-                  "__deleted_at__": null
-                }
-              ]
-            },
-            {
-              "entity": "Entity",
-              "documents": [
-                {
-                  "id": 1,
-                  "name": "Menu Action",
-                  "module": "developer",
-                  "default_list_view": "List",
-                  "is_single": 0,
-                  "is_static": 0,
-                  "include_in_installer": 0,
-                  "is_child": 1,
-                  "is_builder": 0,
-                  "__document_status__": "Active",
-                  "doc_structure": "[{\"element\":\"input\",\"data\":{\"name\":\"parent_id\",\"label\":\"Parent ID\",\"type\":\"integer\",\"hidden\":1,\"key\":\"gzc5az4fd\"}},{\"element\":\"input\",\"data\":{\"name\":\"parent_document\",\"label\":\"Parent Entity\",\"type\":\"integer\",\"hidden\":1,\"key\":\"wj56qfc8x\"}},{\"element\":\"row\",\"data\":{\"name\":\"name_and_status_container\",\"key\":\"yx51pde23\",\"label\":\"Row1\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"name\",\"label\":\"Name\",\"required\":1,\"type\":\"text\",\"in_list_view\":1,\"set_only_time\":1,\"unique\":1,\"searchable\":1,\"key\":\"o6grgzgxq\"}},{\"element\":\"select\",\"data\":{\"name\":\"__document_status__\",\"label\":\"Status\",\"options\":\"Active\\nInactive\\nDraft\\nPending\\nApproved\\nRejected\\nArchived\\nDeleted\",\"default_value\":\"Active\",\"hidden\":1,\"key\":\"dkvbw54tm\"}},{\"element\":\"id\",\"data\":{\"name\":\"id\",\"label\":\"ID\",\"type\":\"integer\",\"required\":1,\"in_list_view\":0,\"hidden\":1,\"key\":\"agl78wb9m\"}}]},{\"element\":\"row\",\"data\":{\"label\":\"Row1\",\"key\":\"row1_el100178803653\"},\"elements\":[{\"element\":\"col\",\"data\":{\"label\":\"Col1\",\"key\":\"col1_el53286929095\"},\"elements\":[{\"element\":\"icon_input\",\"data\":{\"label\":\"Icon\",\"key\":\"icon_input1_el394980504043\",\"name\":\"icon\",\"in_list_view\":1,\"searchable\":1,\"required\":1},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"label\":\"Col3\",\"key\":\"col3_el660482372712\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Action\",\"key\":\"input28_el919563649838\",\"name\":\"action\",\"required\":1,\"in_list_view\":1,\"searchable\":1},\"elements\":[]}]}]}]",
-                  "resources": [],
-                  "deleted_at": null,
-                  "__created_at__": null,
-                  "__updated_at__": null,
-                  "__deleted_at__": null
-                }
-              ]
-            }
-          ]
+          "name": "fOp9I6t57dBshe6",
+          "page": "Learn",
+          "link": "Learn",
+          "parent_menu": "Doc",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-11-06 20:49:50"
         }
       ],
-      "requires": [
+      "menu_actions": [
         {
-          "entity": "Entity",
-          "documents": [
-            {
-              "id": 17,
-              "name": "Menu Item",
-              "module": "developer",
-              "default_list_view": "List",
-              "is_single": 0,
-              "is_static": 0,
-              "include_in_installer": 0,
-              "is_child": 1,
-              "is_builder": 0,
-              "__document_status__": "Active",
-              "doc_structure": "[{\"element\":\"input\",\"data\":{\"name\":\"parent_id\",\"label\":\"Parent ID\",\"type\":\"integer\",\"hidden\":1,\"key\":\"7cktr6vd2\"},\"elements\":[]},{\"element\":\"input\",\"data\":{\"name\":\"parent_document\",\"label\":\"Parent Entity\",\"type\":\"integer\",\"hidden\":1,\"key\":\"cv01nds1p\"},\"elements\":[]},{\"element\":\"row\",\"data\":{\"name\":\"name_and_status_container\",\"key\":\"mywywotbx\",\"label\":\"Row1\"},\"elements\":[{\"element\":\"select\",\"data\":{\"label\":\"Status\",\"name\":\"__document_status__\",\"not_validate_type\":0,\"required\":0,\"unique\":0,\"set_only_time\":0,\"readonly\":0,\"in_list_view\":0,\"searchable\":0,\"options\":\"Active\\nInactive\\nDraft\\nPending\\nApproved\\nRejected\\nArchived\\nDeleted\",\"default_value\":\"Active\",\"id\":\"select54_el144898968120\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"hidden\":1,\"disabled\":0,\"collapsed\":0,\"key\":\"hxwjdw98l\"},\"elements\":[]},{\"element\":\"id\",\"data\":{\"name\":\"id\",\"label\":\"ID\",\"type\":\"integer\",\"required\":1,\"hidden\":1,\"in_list_view\":0,\"key\":\"ef8yv23uj\",\"background_image\":[]},\"elements\":[]}]},{\"element\":\"input\",\"data\":{\"name\":\"name\",\"label\":\"Name\",\"type\":\"text\",\"required\":1,\"in_list_view\":1,\"set_only_time\":1,\"unique\":1,\"id\":\"input339_el5561128133\",\"searchable\":1,\"key\":\"xcq0etwee\"},\"elements\":[]},{\"element\":\"row\",\"data\":{\"name\":\"row1_el68059727519\",\"id\":\"row20_el74198279416\",\"label\":\"Row1\",\"key\":\"wr32upkv9\",\"layout\":\"[25,25,25,25]\"},\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col1_el109499672148\",\"id\":\"col41_el728905163266\",\"label\":\"Col1\",\"key\":\"w8gmgh896\"},\"elements\":[{\"element\":\"select\",\"data\":{\"label\":\"Page\",\"name\":\"page\",\"required\":1,\"in_list_view\":1,\"options\":\"Page Builder\",\"id\":\"select146_el292406485166\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"key\":\"zf0m63d4b\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col651_el50020111152\",\"id\":\"col42_el728335875431\",\"label\":\"Col651\",\"key\":\"isow3muwk\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Label\",\"name\":\"link\",\"required\":1,\"in_list_view\":1,\"id\":\"input334_el1621604437\",\"background_color\":{\"color\":\"\",\"alpha\":0.5},\"background_image\":\"[]\",\"color_overlay\":{\"color\":\"\",\"alpha\":0.5},\"key\":\"mz0qvr80y\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"key\":\"kfu491tkp\",\"label\":\"Col481\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Parent\",\"key\":\"input10_el787303579960\",\"name\":\"parent_menu\",\"in_list_view\":1,\"searchable\":1},\"elements\":[]}]}]},{\"element\":\"row\",\"data\":{\"name\":\"row33_el687443337500\",\"id\":\"row21_el146992447937\",\"label\":\"Row33\",\"key\":\"3e2x3828r\",\"layout\":\"[50,50]\"},\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col96_el79149827367\",\"id\":\"col43_el177368948609\",\"label\":\"Col96\",\"key\":\"tzu2rluo9\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"document_parent\",\"id\":\"input336_el36531377246\",\"label\":\"Document Parent\",\"hidden\":1,\"key\":\"kampmo65u\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col131_el7446029241\",\"id\":\"col44_el217375041008\",\"label\":\"Col131\",\"key\":\"29936mpq1\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"document_parent_name\",\"id\":\"input338_el71356327106\",\"label\":\"Dcoument Parent Name\",\"hidden\":1,\"key\":\"4uubzj2fy\"},\"elements\":[]}]}]},{\"element\":\"date_time\",\"data\":{\"name\":\"deleted_at\",\"label\":\"Deleted At\",\"hidden\":1,\"id\":\"date_time95_el145559974942\",\"key\":\"zoftjjexj\"},\"elements\":[]}]",
-              "search_fields": "name",
-              "title_fields": "name",
-              "resources": [],
-              "deleted_at": null,
-              "__created_at__": null,
-              "__updated_at__": null,
-              "__deleted_at__": null
-            }
-          ]
+          "parent_id": "71",
+          "parent_document": "App",
+          "name": "qJ4FVSEP8KDQ7XH",
+          "__document_status__": "Active",
+          "id": 1,
+          "icon": "XLogo",
+          "action": "https://x.com/loopardev"
         },
         {
-          "entity": "Entity",
-          "documents": [
-            {
-              "id": 1,
-              "name": "Menu Action",
-              "module": "developer",
-              "default_list_view": "List",
-              "is_single": 0,
-              "is_static": 0,
-              "include_in_installer": 0,
-              "is_child": 1,
-              "is_builder": 0,
-              "__document_status__": "Active",
-              "doc_structure": "[{\"element\":\"input\",\"data\":{\"name\":\"parent_id\",\"label\":\"Parent ID\",\"type\":\"integer\",\"hidden\":1,\"key\":\"gzc5az4fd\"}},{\"element\":\"input\",\"data\":{\"name\":\"parent_document\",\"label\":\"Parent Entity\",\"type\":\"integer\",\"hidden\":1,\"key\":\"wj56qfc8x\"}},{\"element\":\"row\",\"data\":{\"name\":\"name_and_status_container\",\"key\":\"yx51pde23\",\"label\":\"Row1\"},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"name\",\"label\":\"Name\",\"required\":1,\"type\":\"text\",\"in_list_view\":1,\"set_only_time\":1,\"unique\":1,\"searchable\":1,\"key\":\"o6grgzgxq\"}},{\"element\":\"select\",\"data\":{\"name\":\"__document_status__\",\"label\":\"Status\",\"options\":\"Active\\nInactive\\nDraft\\nPending\\nApproved\\nRejected\\nArchived\\nDeleted\",\"default_value\":\"Active\",\"hidden\":1,\"key\":\"dkvbw54tm\"}},{\"element\":\"id\",\"data\":{\"name\":\"id\",\"label\":\"ID\",\"type\":\"integer\",\"required\":1,\"in_list_view\":0,\"hidden\":1,\"key\":\"agl78wb9m\"}}]},{\"element\":\"row\",\"data\":{\"label\":\"Row1\",\"key\":\"row1_el100178803653\"},\"elements\":[{\"element\":\"col\",\"data\":{\"label\":\"Col1\",\"key\":\"col1_el53286929095\"},\"elements\":[{\"element\":\"icon_input\",\"data\":{\"label\":\"Icon\",\"key\":\"icon_input1_el394980504043\",\"name\":\"icon\",\"in_list_view\":1,\"searchable\":1,\"required\":1},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"label\":\"Col3\",\"key\":\"col3_el660482372712\"},\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Action\",\"key\":\"input28_el919563649838\",\"name\":\"action\",\"required\":1,\"in_list_view\":1,\"searchable\":1},\"elements\":[]}]}]}]",
-              "resources": [],
-              "deleted_at": null,
-              "__created_at__": null,
-              "__updated_at__": null,
-              "__deleted_at__": null
-            }
-          ]
+          "parent_id": "71",
+          "parent_document": "App",
+          "name": "yqw9e8A2jprb0f6",
+          "__document_status__": "Active",
+          "id": 2,
+          "icon": "Github",
+          "action": "https://github.com/alphabit-technology/loopar-framework.git"
         }
-      ]
+      ],
+      "github_pass": ""
     },
-    {
-      "id": 4,
-      "entity": "Page Builder",
-      "path": "/apps/loopar/modules/developer/builders/page-builder",
-      "name": "Page Builder",
-      "documents": [
-        {
-          "id": 14,
-          "name": "Loopar Home",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-home",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": 15,
-          "name": "Loopar Installation",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-installation",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": 16,
-          "name": "Loopar Introduction",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-introduction",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": 17,
-          "name": "Loopar Doc",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-doc",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": 18,
-          "name": "Getting Started",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/getting-started",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": 19,
-          "name": "Loopar Concepts",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-concepts",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": 20,
-          "name": "Learn",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/learn",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": null,
-          "name": "Info",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/info",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": null,
-          "name": "Loopar Blog",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-blog",
-          "documents": [],
-          "requires": []
-        },
-        {
-          "id": null,
-          "name": "Info",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/info",
-          "requires": []
-        },
-        {
-          "id": null,
-          "name": "Loopar Blog",
-          "path": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-blog",
-          "requires": []
-        }
-      ],
-      "requires": []
+    "Entity:Module Group": {
+      "app": "loopar"
     },
-    {
-      "id": 12,
-      "entity": "Controller Builder",
-      "path": "/apps/loopar/modules/core/builders/controller-builder",
-      "name": "Controller Builder",
-      "documents": [
-        {
-          "id": 4,
-          "name": "System",
-          "path": "/.loopar/apps/core/modules/system/controllers/system",
-          "documents": [],
-          "requires": []
-        }
-      ],
-      "requires": []
+    "Module Group:modules": {
+      "__document_status__": "Active",
+      "id": 6,
+      "name": "modules",
+      "description": "Modules",
+      "in_sidebar": 1,
+      "deleted_at": "2025-11-07 06:47:04"
+    },
+    "Module:loopar-web": {
+      "__document_status__": "Active",
+      "id": 68,
+      "name": "loopar-web",
+      "description": "Loopar WebPage",
+      "app_name": "loopar-webpage",
+      "module_group": "modules",
+      "icon": "Infinity",
+      "in_sidebar": 1,
+      "deleted_at": "2025-11-06 20:49:50"
+    },
+    "Page Builder:Info": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/info"
+    },
+    "Entity:Menu Item": {
+      "app": "loopar"
+    },
+    "Entity:Menu Action": {
+      "app": "loopar"
+    },
+    "Module:loopar-webpage": {
+      "__document_status__": "Active",
+      "id": 69,
+      "name": "loopar-webpage",
+      "description": "loopar-webpage",
+      "app_name": "loopar-webpage",
+      "module_group": "modules",
+      "icon": "Infinity",
+      "in_sidebar": 1,
+      "deleted_at": "null"
+    },
+    "Page Builder:Loopar Blog": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-blog"
+    },
+    "Page Builder:Loopar Installation": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-installation"
+    },
+    "Page Builder:Loopar Introduction": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-introduction"
+    },
+    "Page Builder:Loopar Doc": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-doc"
+    },
+    "Page Builder:Getting Started": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/getting-started"
+    },
+    "Page Builder:Loopar Concepts": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-concepts"
+    },
+    "Page Builder:Learn": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/learn"
+    },
+    "Page Builder:Loopar Home": {
+      "root": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-home"
     }
-  ]
+  },
+  "postInstaller": {
+    "App:loopar-webpage": "link"
+  }
 }
