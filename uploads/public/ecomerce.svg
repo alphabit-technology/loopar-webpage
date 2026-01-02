@@ -1,0 +1,10 @@
+<!-- 4. E-Commerce -->
+<svg width="120" height="120" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 8L8 4H16L18 8" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <rect x="5" y="8" width="14" height="12" rx="2" stroke="#EF4444" stroke-width="2"/>
+  <circle cx="9" cy="19" r="1.5" fill="#EF4444"/>
+  <circle cx="15" cy="19" r="1.5" fill="#EF4444"/>
+  <path d="M8 12H10" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <path d="M14 12H16" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="12" cy="12" r="2" fill="#EF4444" opacity="0.3"/>
+</svg>

@@ -3,7 +3,7 @@
 
 import PageContext from '@context/page-context';
 
-export default class LearnPage extends PageContext {
+export default class LooparApiReferencePage extends PageContext {
     constructor(props){
         super(props);
     }

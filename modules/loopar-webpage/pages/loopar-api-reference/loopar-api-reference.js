@@ -3,7 +3,7 @@
 
 import {BaseDocument} from 'loopar';
 
-export default class Learn extends BaseDocument {
+export default class LooparApiReference extends BaseDocument {
     constructor(props){
         super(props);
     }
