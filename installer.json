@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "2.0.39"
+    "version": "2.0.40"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,18 +17,18 @@
       "type": "Web App",
       "name": "loopar-webpage",
       "description": "Loopar WebPage",
-      "version": "2.0.39",
+      "version": "2.0.40",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Infinity",
       "spacing": 3,
       "footer_height": "",
       "col_padding": "p-9",
       "col_margin": "m-0",
-      "logo": "[{\"name\": \"logo-uni.svg\", \"type\": \"image\", \"extention\": \"svg\", \"src\": \"/assets/public/logo-uni.svg\", \"previewSrc\": \"/assets/public/logo-uni.svg\"}]",
-      "logo_dark": "[{\"name\": \"logo-uni.svg\", \"type\": \"image\", \"extention\": \"svg\", \"src\": \"/assets/public/logo-uni.svg\", \"previewSrc\": \"/assets/public/logo-uni.svg\"}]",
-      "logo_mini": "[{\"name\": \"logo-mini-uni.svg\", \"type\": \"image\", \"extention\": \"svg\", \"src\": \"/assets/public/logo-mini-uni.svg\", \"previewSrc\": \"/assets/public/logo-mini-uni.svg\"}]",
-      "logo_mini_dark": "[{\"name\": \"logo-mini-uni.svg\", \"type\": \"image\", \"extention\": \"svg\", \"src\": \"/assets/public/logo-mini-uni.svg\", \"previewSrc\": \"/assets/public/logo-mini-uni.svg\"}]",
-      "favicon": "[{\"name\":\"loopar-favicon.ico\",\"size\":4961,\"type\":\"image\",\"src\":\"/assets/public/images/loopar-favicon.ico\"}]",
+      "logo": "[{\"name\":\"logo-light.svg\",\"size\":16526,\"type\":\"image\",\"src\":\"/assets/public/logo-light.svg\"}]",
+      "logo_dark": "[{\"name\":\"logo-dark.svg\",\"size\":16646,\"type\":\"image\",\"src\":\"/assets/public/logo-dark.svg\"}]",
+      "logo_mini": "[{\"name\":\"logo-mini-light.svg\",\"size\":810,\"type\":\"image\",\"src\":\"/assets/public/logo-mini-light.svg\"}]",
+      "logo_mini_dark": "[{\"name\":\"logo-mini-dark.svg\",\"size\":810,\"type\":\"image\",\"src\":\"/assets/public/logo-mini-dark.svg\"}]",
+      "favicon": "[{\"name\":\"logo-mini-dark.svg\",\"size\":810,\"type\":\"image\",\"src\":\"/assets/public/logo-mini-dark.svg\"}]",
       "logo_width": 2,
       "logo_height": "",
       "has_footer": 1,
@@ -43,7 +43,7 @@
       "menu_items": [
         {
           "parent_document": "App",
-          "name": "d2baCmZpw0ufjMv",
+          "name": "mh8QPZc9v1jnp0u",
           "page": "Loopar Home",
           "link": "Home",
           "parent_menu": "",
@@ -51,7 +51,7 @@
         },
         {
           "parent_document": "App",
-          "name": "k4LHSQ3VCBtGuA8",
+          "name": "iF7GUbp1Tc3VB64",
           "page": "Loopar Introduction",
           "link": "Doc",
           "parent_menu": "",
@@ -59,7 +59,7 @@
         },
         {
           "parent_document": "App",
-          "name": "xXy2O1Q1i57S27C",
+          "name": "r7BnhEgHsrUf1pM",
           "page": "Loopar Introduction",
           "link": "Introduction",
           "parent_menu": "Doc",
@@ -67,7 +67,7 @@
         },
         {
           "parent_document": "App",
-          "name": "GWh18pAL27QqP82",
+          "name": "XPTsrwn1t9x1Za7",
           "page": "Getting Started",
           "link": "Getting Started",
           "parent_menu": "Doc",
@@ -75,7 +75,7 @@
         },
         {
           "parent_document": "App",
-          "name": "oo4uf05be03grNU",
+          "name": "A9ev1q7lE1ijDJQ",
           "page": "Loopar Concepts",
           "link": "Concepts",
           "parent_menu": "Doc",
@@ -83,7 +83,7 @@
         },
         {
           "parent_document": "App",
-          "name": "tf6P1v2lDRbeJ0u",
+          "name": "t8uq11g7o61dm7n",
           "page": "Learn",
           "link": "Learn",
           "parent_menu": "Doc",
@@ -91,7 +91,7 @@
         },
         {
           "parent_document": "App",
-          "name": "j0lFtWQon87gyYC",
+          "name": "K71X01Iif079TVG",
           "page": "Loopar Components",
           "link": "Components",
           "parent_menu": "Doc",
@@ -99,7 +99,7 @@
         },
         {
           "parent_document": "App",
-          "name": "gbcikNRVsZP4L61",
+          "name": "K1X9b3I24TOrpoW",
           "page": "Loopar Api Reference",
           "link": "Api Reference",
           "parent_menu": "Doc",
@@ -107,7 +107,7 @@
         },
         {
           "parent_document": "App",
-          "name": "rIQm41SJ8N5Y2pr",
+          "name": "VOp7hL6ua5mA1Ze",
           "page": "Loopar Authentication",
           "link": "Authentication",
           "parent_menu": "Doc",
@@ -115,7 +115,7 @@
         },
         {
           "parent_document": "App",
-          "name": "j1YTGcr01mPnQx6",
+          "name": "VAH7SVOa8FPYXQC",
           "page": "Loopar Email",
           "link": "Email",
           "parent_menu": "Doc",
@@ -123,7 +123,7 @@
         },
         {
           "parent_document": "App",
-          "name": "fF2x8fg2uSYs7w6",
+          "name": "ktxNX9TLlZHm8KE",
           "page": "Loopar Examples",
           "link": "Examples",
           "parent_menu": "Doc",
@@ -131,7 +131,7 @@
         },
         {
           "parent_document": "App",
-          "name": "E1As8bDnEqRigp1",
+          "name": "H8X0I4qb0KD11xr",
           "page": "Loopar Deployment",
           "link": "Deployment",
           "parent_menu": "Doc",
@@ -141,13 +141,13 @@
       "menu_actions": [
         {
           "parent_document": "App",
-          "name": "E0T4173DfFt75Ae",
+          "name": "XkZrm21xLHv68ns",
           "icon": "SiX",
           "action": "https://x.com/loopardev"
         },
         {
           "parent_document": "App",
-          "name": "C6UfWVSnp1i27jO",
+          "name": "IdptMv61y00cQe7",
           "icon": "SiGithub",
           "action": "https://github.com/alphabit-technology/loopar-framework.git"
         }
