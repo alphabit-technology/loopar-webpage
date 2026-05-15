@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "2.0.40"
+    "version": "2.0.41"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,7 +17,7 @@
       "type": "Web App",
       "name": "loopar-webpage",
       "description": "Loopar WebPage",
-      "version": "2.0.40",
+      "version": "2.0.41",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Infinity",
       "spacing": 3,
@@ -43,7 +43,7 @@
       "menu_items": [
         {
           "parent_document": "App",
-          "name": "mh8QPZc9v1jnp0u",
+          "name": "S2stJAxTXo49p7C",
           "page": "Loopar Home",
           "link": "Home",
           "parent_menu": "",
@@ -51,7 +51,7 @@
         },
         {
           "parent_document": "App",
-          "name": "iF7GUbp1Tc3VB64",
+          "name": "uNLZg6YJTvxBMy8",
           "page": "Loopar Introduction",
           "link": "Doc",
           "parent_menu": "",
@@ -59,7 +59,7 @@
         },
         {
           "parent_document": "App",
-          "name": "r7BnhEgHsrUf1pM",
+          "name": "mnB4Y35qgC10HUt",
           "page": "Loopar Introduction",
           "link": "Introduction",
           "parent_menu": "Doc",
@@ -67,7 +67,7 @@
         },
         {
           "parent_document": "App",
-          "name": "XPTsrwn1t9x1Za7",
+          "name": "dWl3wZrQI8Dh7b8",
           "page": "Getting Started",
           "link": "Getting Started",
           "parent_menu": "Doc",
@@ -75,7 +75,7 @@
         },
         {
           "parent_document": "App",
-          "name": "A9ev1q7lE1ijDJQ",
+          "name": "ZW6D92H2fg8u8AJ",
           "page": "Loopar Concepts",
           "link": "Concepts",
           "parent_menu": "Doc",
@@ -83,7 +83,7 @@
         },
         {
           "parent_document": "App",
-          "name": "t8uq11g7o61dm7n",
+          "name": "Up4t52q8e78Rdvl",
           "page": "Learn",
           "link": "Learn",
           "parent_menu": "Doc",
@@ -91,7 +91,7 @@
         },
         {
           "parent_document": "App",
-          "name": "K71X01Iif079TVG",
+          "name": "Tnysxbf8289lkw8",
           "page": "Loopar Components",
           "link": "Components",
           "parent_menu": "Doc",
@@ -99,7 +99,7 @@
         },
         {
           "parent_document": "App",
-          "name": "K1X9b3I24TOrpoW",
+          "name": "oDkQtHfS88O9L6A",
           "page": "Loopar Api Reference",
           "link": "Api Reference",
           "parent_menu": "Doc",
@@ -107,7 +107,7 @@
         },
         {
           "parent_document": "App",
-          "name": "VOp7hL6ua5mA1Ze",
+          "name": "yNh7H6K2xy4GFWt",
           "page": "Loopar Authentication",
           "link": "Authentication",
           "parent_menu": "Doc",
@@ -115,7 +115,7 @@
         },
         {
           "parent_document": "App",
-          "name": "VAH7SVOa8FPYXQC",
+          "name": "shp825k6AnOKJ1Y",
           "page": "Loopar Email",
           "link": "Email",
           "parent_menu": "Doc",
@@ -123,7 +123,7 @@
         },
         {
           "parent_document": "App",
-          "name": "ktxNX9TLlZHm8KE",
+          "name": "OQ6BbS2e2MyG8kv",
           "page": "Loopar Examples",
           "link": "Examples",
           "parent_menu": "Doc",
@@ -131,7 +131,7 @@
         },
         {
           "parent_document": "App",
-          "name": "H8X0I4qb0KD11xr",
+          "name": "A6Eg88x9Q4JNWY1",
           "page": "Loopar Deployment",
           "link": "Deployment",
           "parent_menu": "Doc",
@@ -141,13 +141,13 @@
       "menu_actions": [
         {
           "parent_document": "App",
-          "name": "XkZrm21xLHv68ns",
+          "name": "F7vXZ2GIM8HVFN0",
           "icon": "SiX",
-          "action": "https://x.com/loopardev"
+          "action": "https://x.com/LooparBuild"
         },
         {
           "parent_document": "App",
-          "name": "IdptMv61y00cQe7",
+          "name": "e5829LPIUsfhcg7",
           "icon": "SiGithub",
           "action": "https://github.com/alphabit-technology/loopar-framework.git"
         }
