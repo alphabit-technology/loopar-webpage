@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" fill="none" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <defs>
+    <linearGradient id="loop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/><stop offset=".5" stop-color="#bd34fe"/><stop offset="1" stop-color="#41d1ff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d1d31"/><stop offset="1" stop-color="#14141f"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="38%" r="62%">
+      <stop offset="0" stop-color="#6366f1" stop-opacity=".40"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="330" cy="215" rx="300" ry="235" fill="url(#bgGlow)"/>
+
+  <!-- component palette (floating, left) -->
+  <g filter="url(#soft)">
+    <rect x="26" y="150" width="118" height="232" rx="14" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/>
+    <text x="46" y="178" fill="#8b8ba7" font-size="11" font-weight="600" letter-spacing="1">BLOCKS</text>
+    <g>
+      <rect x="42" y="192" width="86" height="30" rx="8" fill="#23233a" stroke="#3a3a59"/><rect x="52" y="203" width="12" height="8" rx="2" fill="#6366f1"/><text x="72" y="211" fill="#c7c7da" font-size="11">Section</text>
+      <rect x="42" y="228" width="86" height="30" rx="8" fill="#23233a" stroke="#3a3a59"/><rect x="52" y="239" width="12" height="8" rx="2" fill="#41d1ff"/><text x="72" y="247" fill="#c7c7da" font-size="11">Row</text>
+      <rect x="42" y="264" width="86" height="30" rx="8" fill="#23233a" stroke="#3a3a59"/><rect x="52" y="275" width="12" height="8" rx="2" fill="#bd34fe"/><text x="72" y="283" fill="#c7c7da" font-size="11">Card</text>
+      <rect x="42" y="300" width="86" height="30" rx="8" fill="#23233a" stroke="#3a3a59"/><rect x="52" y="311" width="12" height="8" rx="2" fill="#10b981"/><text x="72" y="319" fill="#c7c7da" font-size="11">Form</text>
+      <rect x="42" y="336" width="86" height="30" rx="8" fill="#23233a" stroke="#3a3a59"/><rect x="52" y="347" width="12" height="8" rx="2" fill="#f59e0b"/><text x="72" y="355" fill="#c7c7da" font-size="11">Table</text>
+    </g>
+  </g>
+
+  <!-- main designer canvas -->
+  <g filter="url(#soft)">
+    <rect x="118" y="64" width="468" height="372" rx="18" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/>
+    <path d="M118 82 a18 18 0 0 1 18 -18 h432 a18 18 0 0 1 18 18 v22 h-468 z" fill="#1a1a2c"/>
+    <circle cx="142" cy="84" r="5" fill="#ff6b6b"/><circle cx="160" cy="84" r="5" fill="#f5b942"/><circle cx="178" cy="84" r="5" fill="#41d1ff"/>
+    <rect x="210" y="76" width="300" height="16" rx="8" fill="#23233a"/>
+    <text x="222" y="88" fill="#6f6f8c" font-size="10">loopar.build / designer</text>
+  </g>
+
+  <!-- canvas content: a page being assembled -->
+  <!-- hero block -->
+  <rect x="146" y="124" width="412" height="74" rx="10" fill="#1c1c30" stroke="#3a3a59"/>
+  <rect x="146" y="124" width="6" height="74" rx="3" fill="url(#loop)"/>
+  <rect x="168" y="142" width="150" height="12" rx="6" fill="#4b4b6b"/>
+  <rect x="168" y="162" width="240" height="8" rx="4" fill="#33334d"/>
+  <rect x="168" y="176" width="92" height="8" rx="4" fill="#33334d"/>
+  <rect x="470" y="150" width="72" height="24" rx="8" fill="url(#loop)" opacity=".9"/>
+
+  <!-- 2-col row -->
+  <rect x="146" y="210" width="200" height="92" rx="10" fill="#1c1c30" stroke="#3a3a59"/>
+  <rect x="164" y="228" width="120" height="9" rx="4" fill="#41d1ff" opacity=".7"/>
+  <rect x="164" y="244" width="164" height="7" rx="3" fill="#33334d"/>
+  <rect x="164" y="256" width="150" height="7" rx="3" fill="#33334d"/>
+  <rect x="164" y="268" width="158" height="7" rx="3" fill="#33334d"/>
+  <rect x="358" y="210" width="200" height="92" rx="10" fill="#1c1c30" stroke="#3a3a59"/>
+  <circle cx="408" cy="256" r="26" fill="none" stroke="#6366f1" stroke-width="6" opacity=".8"/>
+  <rect x="448" y="240" width="92" height="9" rx="4" fill="#4b4b6b"/>
+  <rect x="448" y="256" width="74" height="7" rx="3" fill="#33334d"/>
+
+  <!-- 3 skeleton cards -->
+  <rect x="146" y="314" width="128" height="96" rx="10" fill="#1c1c30" stroke="#3a3a59"/>
+  <rect x="288" y="314" width="128" height="96" rx="10" fill="#1c1c30" stroke="#3a3a59"/>
+  <!-- the 3rd card slot = drop target (dashed) -->
+  <rect x="430" y="314" width="128" height="96" rx="10" fill="#191929" stroke="#6366f1" stroke-width="1.6" stroke-dasharray="6 5"/>
+  <g opacity=".9">
+    <rect x="166" y="332" width="34" height="34" rx="8" fill="#23233a"/><rect x="174" y="341" width="18" height="16" rx="3" fill="#bd34fe" opacity=".8"/>
+    <rect x="166" y="376" width="88" height="7" rx="3" fill="#3a3a59"/><rect x="166" y="388" width="64" height="7" rx="3" fill="#2c2c45"/>
+    <rect x="308" y="332" width="34" height="34" rx="8" fill="#23233a"/><rect x="316" y="341" width="18" height="16" rx="3" fill="#41d1ff" opacity=".8"/>
+    <rect x="308" y="376" width="88" height="7" rx="3" fill="#3a3a59"/><rect x="308" y="388" width="64" height="7" rx="3" fill="#2c2c45"/>
+  </g>
+
+  <!-- dragged ghost block + cursor -->
+  <g filter="url(#soft)">
+    <rect x="404" y="356" width="128" height="86" rx="10" fill="#20203a" stroke="url(#loop)" stroke-width="1.8"/>
+    <rect x="424" y="374" width="30" height="30" rx="7" fill="#2a2a47"/><rect x="431" y="382" width="16" height="14" rx="3" fill="url(#loop)"/>
+    <rect x="424" y="414" width="80" height="7" rx="3" fill="#45456a"/><rect x="424" y="426" width="56" height="7" rx="3" fill="#36365a"/>
+  </g>
+  <path d="M516 430 l0 30 l8 -8 l6 13 l6 -3 l-6 -12 l11 0 z" fill="#ffffff" stroke="#14141f" stroke-width="1.5"/>
+
+  <!-- floating "auto-generated" chip -->
+  <g filter="url(#soft)">
+    <rect x="372" y="40" width="176" height="34" rx="17" fill="#16162a" stroke="#3a3a59"/>
+    <circle cx="392" cy="57" r="7" fill="url(#loop)"/>
+    <text x="408" y="61" fill="#d8d8ea" font-size="12" font-weight="600">code auto-generated</text>
+  </g>
+</svg>

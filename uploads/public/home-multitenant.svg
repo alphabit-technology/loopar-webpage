@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" fill="none" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <defs>
+    <linearGradient id="loop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/><stop offset=".5" stop-color="#bd34fe"/><stop offset="1" stop-color="#41d1ff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d1d31"/><stop offset="1" stop-color="#14141f"/>
+    </linearGradient>
+    <linearGradient id="codebar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#211d3a"/><stop offset="1" stop-color="#1a2236"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+  </defs>
+
+  <!-- single codebase bar -->
+  <g filter="url(#soft)">
+    <rect x="170" y="26" width="580" height="62" rx="15" fill="url(#codebar)" stroke="#3a3a59" stroke-width="1.5"/>
+  </g>
+  <rect x="170" y="26" width="6" height="62" rx="3" fill="url(#loop)"/>
+  <text x="200" y="52" fill="#f1f1f8" font-size="15" font-weight="700">Single codebase</text>
+  <text x="200" y="72" fill="#8585a3" font-size="11.5">shared apps &amp; framework packages — deploy updates to every tenant at once</text>
+  <g font-family="ui-monospace,monospace" font-size="11" fill="#9a9ac0">
+    <rect x="556" y="40" width="74" height="20" rx="6" fill="#23233a"/><text x="566" y="54">/apps</text>
+    <rect x="638" y="40" width="96" height="20" rx="6" fill="#23233a"/><text x="648" y="54">/packages</text>
+  </g>
+
+  <!-- connectors to tenants -->
+  <g stroke="#4d4d72" stroke-width="2" fill="none">
+    <path d="M300 90 C 300 130, 200 130, 200 168"/>
+    <path d="M460 90 L460 168"/>
+    <path d="M620 90 C 620 130, 720 130, 720 168"/>
+  </g>
+
+  <!-- tenant cards -->
+  <!-- dev -->
+  <g filter="url(#soft)"><rect x="92" y="170" width="216" height="156" rx="15" fill="url(#panel)" stroke="url(#loop)" stroke-width="2"/></g>
+  <text x="116" y="200" fill="#f1f1f8" font-size="15" font-weight="700">dev</text>
+  <rect x="156" y="187" width="64" height="20" rx="10" fill="#2a2150" stroke="#6366f1"/><text x="166" y="201" fill="#a9a7ff" font-size="10" font-weight="600">admin</text>
+  <text x="116" y="226" fill="#8585a3" font-size="11.5">control center · build &amp; manage</text>
+  <ellipse cx="134" cy="262" rx="16" ry="6" fill="none" stroke="#41d1ff" stroke-width="2"/><path d="M118 262 v22 a16 6 0 0 0 32 0 v-22" fill="none" stroke="#41d1ff" stroke-width="2"/><path d="M118 273 a16 6 0 0 0 32 0" fill="none" stroke="#41d1ff" stroke-width="1.4"/>
+  <text x="164" y="262" fill="#c7c7da" font-size="11.5">own database</text>
+  <text x="164" y="280" fill="#7e7e9c" font-size="11" font-family="ui-monospace,monospace">:3000</text>
+  <text x="116" y="312" fill="#7e7e9c" font-size="11">localhost — never public</text>
+
+  <!-- client-a -->
+  <g filter="url(#soft)"><rect x="352" y="170" width="216" height="156" rx="15" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/></g>
+  <text x="376" y="200" fill="#f1f1f8" font-size="15" font-weight="700">client-a</text>
+  <rect x="450" y="187" width="58" height="20" rx="10" fill="#14352a" stroke="#10b981"/><text x="460" y="201" fill="#5ee0aa" font-size="10" font-weight="600">prod</text>
+  <text x="376" y="226" fill="#8585a3" font-size="11.5">isolated data &amp; users</text>
+  <ellipse cx="394" cy="262" rx="16" ry="6" fill="none" stroke="#41d1ff" stroke-width="2"/><path d="M378 262 v22 a16 6 0 0 0 32 0 v-22" fill="none" stroke="#41d1ff" stroke-width="2"/><path d="M378 273 a16 6 0 0 0 32 0" fill="none" stroke="#41d1ff" stroke-width="1.4"/>
+  <text x="424" y="262" fill="#c7c7da" font-size="11.5">own database</text>
+  <text x="424" y="280" fill="#7e7e9c" font-size="11" font-family="ui-monospace,monospace">:3001</text>
+  <text x="376" y="312" fill="#9a9ac0" font-size="11">acme.com  ·  auto-SSL</text>
+
+  <!-- client-b -->
+  <g filter="url(#soft)"><rect x="612" y="170" width="216" height="156" rx="15" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/></g>
+  <text x="636" y="200" fill="#f1f1f8" font-size="15" font-weight="700">client-b</text>
+  <rect x="710" y="187" width="58" height="20" rx="10" fill="#14352a" stroke="#10b981"/><text x="720" y="201" fill="#5ee0aa" font-size="10" font-weight="600">prod</text>
+  <text x="636" y="226" fill="#8585a3" font-size="11.5">its own config &amp; theme</text>
+  <ellipse cx="654" cy="262" rx="16" ry="6" fill="none" stroke="#bd34fe" stroke-width="2"/><path d="M638 262 v22 a16 6 0 0 0 32 0 v-22" fill="none" stroke="#bd34fe" stroke-width="2"/><path d="M638 273 a16 6 0 0 0 32 0" fill="none" stroke="#bd34fe" stroke-width="1.4"/>
+  <text x="684" y="262" fill="#c7c7da" font-size="11.5">own database</text>
+  <text x="684" y="280" fill="#7e7e9c" font-size="11" font-family="ui-monospace,monospace">:3002</text>
+  <text x="636" y="312" fill="#9a9ac0" font-size="11">portal.io  ·  auto-SSL</text>
+
+  <!-- connectors to infra -->
+  <g stroke="#4d4d72" stroke-width="2" fill="none">
+    <path d="M200 328 L200 356"/><path d="M460 328 L460 356"/><path d="M720 328 L720 356"/>
+  </g>
+
+  <!-- infra layers -->
+  <g filter="url(#soft)"><rect x="92" y="358" width="736" height="34" rx="10" fill="#17172b" stroke="#34344f" stroke-width="1.4"/></g>
+  <circle cx="116" cy="375" r="7" fill="#6366f1"/><text x="132" y="379" fill="#dcdcec" font-size="12" font-weight="600">PM2</text>
+  <text x="172" y="379" fill="#7e7e9c" font-size="11.5">— one process per tenant, project-local daemon</text>
+  <g filter="url(#soft)"><rect x="92" y="402" width="736" height="34" rx="10" fill="#17172b" stroke="#34344f" stroke-width="1.4"/></g>
+  <circle cx="116" cy="419" r="7" fill="#41d1ff"/><text x="132" y="423" fill="#dcdcec" font-size="12" font-weight="600">Caddy</text>
+  <text x="184" y="423" fill="#7e7e9c" font-size="11.5">— reverse proxy, domain routing &amp; automatic SSL</text>
+</svg>

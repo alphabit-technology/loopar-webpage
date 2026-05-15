@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" fill="none" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <defs>
+    <linearGradient id="loop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/><stop offset=".5" stop-color="#bd34fe"/><stop offset="1" stop-color="#41d1ff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d1d31"/><stop offset="1" stop-color="#14141f"/>
+    </linearGradient>
+    <radialGradient id="srcGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6366f1" stop-opacity=".45"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+  </defs>
+
+  <!-- connectors first (behind) -->
+  <g stroke="#4d4d72" stroke-width="2" fill="none">
+    <path d="M300 210 C 420 150, 470 118, 556 118"/>
+    <path d="M300 250 C 420 230, 470 218, 556 218"/>
+    <path d="M300 285 C 420 300, 470 318, 556 318"/>
+    <path d="M300 320 C 420 360, 470 418, 556 418"/>
+    <path d="M300 350 C 420 430, 470 508, 556 508"/>
+    <path d="M270 380 C 320 470, 360 540, 430 558"/>
+  </g>
+  <g fill="#bd34fe">
+    <circle cx="556" cy="118" r="3.5"/><circle cx="556" cy="218" r="3.5"/><circle cx="556" cy="318" r="3.5"/>
+    <circle cx="556" cy="418" r="3.5"/><circle cx="556" cy="508" r="3.5"/><circle cx="430" cy="558" r="3.5"/>
+  </g>
+
+  <!-- ===== source: Entity JSON ===== -->
+  <ellipse cx="170" cy="288" rx="150" ry="170" fill="url(#srcGlow)"/>
+  <g filter="url(#soft)">
+    <rect x="40" y="178" width="240" height="220" rx="16" fill="url(#panel)" stroke="url(#loop)" stroke-width="2"/>
+  </g>
+  <rect x="40" y="178" width="240" height="34" rx="16" fill="#1a1a2c"/>
+  <rect x="40" y="196" width="240" height="16" fill="#1a1a2c"/>
+  <circle cx="60" cy="195" r="4.5" fill="#ff6b6b"/><circle cx="76" cy="195" r="4.5" fill="#f5b942"/><circle cx="92" cy="195" r="4.5" fill="#41d1ff"/>
+  <text x="266" y="199" text-anchor="end" fill="#6f6f8c" font-size="10.5" font-family="ui-monospace,monospace">customer.json</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5">
+    <text x="60" y="240" fill="#5a5a82">1</text><text x="84" y="240" fill="#c7c7da">{</text>
+    <text x="60" y="258" fill="#5a5a82">2</text><text x="96" y="258" fill="#8b8ba7">"name"</text><text x="142" y="258" fill="#c7c7da">:</text><text x="152" y="258" fill="#10b981">"Customer"</text><text x="222" y="258" fill="#c7c7da">,</text>
+    <text x="60" y="276" fill="#5a5a82">3</text><text x="96" y="276" fill="#8b8ba7">"module"</text><text x="152" y="276" fill="#c7c7da">:</text><text x="162" y="276" fill="#10b981">"CRM"</text><text x="200" y="276" fill="#c7c7da">,</text>
+    <text x="60" y="294" fill="#5a5a82">4</text><text x="96" y="294" fill="#8b8ba7">"fields"</text><text x="152" y="294" fill="#c7c7da">: [</text>
+    <text x="60" y="312" fill="#5a5a82">5</text><text x="112" y="312" fill="#c7c7da">{ name:</text><text x="168" y="312" fill="#41d1ff">"name"</text><text x="210" y="312" fill="#c7c7da">},</text>
+    <text x="60" y="330" fill="#5a5a82">6</text><text x="112" y="330" fill="#c7c7da">{ name:</text><text x="168" y="330" fill="#41d1ff">"email"</text><text x="214" y="330" fill="#c7c7da">},</text>
+    <text x="60" y="348" fill="#5a5a82">7</text><text x="112" y="348" fill="#c7c7da">{ name:</text><text x="168" y="348" fill="#41d1ff">"status"</text><text x="220" y="348" fill="#c7c7da">}</text>
+    <text x="60" y="366" fill="#5a5a82">8</text><text x="96" y="366" fill="#c7c7da">]</text>
+    <text x="60" y="384" fill="#5a5a82">9</text><text x="84" y="384" fill="#c7c7da">}</text>
+  </g>
+  <g filter="url(#soft)">
+    <rect x="92" y="412" width="136" height="30" rx="15" fill="#16162a" stroke="#34344f"/>
+    <circle cx="110" cy="427" r="6" fill="url(#loop)"/>
+    <text x="124" y="431" fill="#d8d8ea" font-size="11" font-weight="600">you write this</text>
+  </g>
+
+  <!-- ===== generated artifacts ===== -->
+  <g font-weight="700" font-size="13.5">
+    <!-- 1 db -->
+    <g filter="url(#soft)"><rect x="560" y="92" width="320" height="58" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
+    <ellipse cx="592" cy="112" rx="13" ry="5" fill="none" stroke="#41d1ff" stroke-width="2"/><path d="M579 112 v16 a13 5 0 0 0 26 0 v-16" fill="none" stroke="#41d1ff" stroke-width="2"/><path d="M579 120 a13 5 0 0 0 26 0" fill="none" stroke="#41d1ff" stroke-width="1.4"/>
+    <text x="622" y="118" fill="#f1f1f8">Database table</text>
+    <text x="622" y="137" fill="#8585a3" font-size="11.5" font-weight="500">schema + automatic migration</text>
+    <!-- 2 api -->
+    <g filter="url(#soft)"><rect x="560" y="192" width="320" height="58" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
+    <path d="M584 206 l-10 15 l10 15 M600 206 l10 15 l-10 15" stroke="#10b981" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="622" y="218" fill="#f1f1f8">REST API</text>
+    <text x="622" y="237" fill="#8585a3" font-size="11.5" font-weight="500">GET · POST · PUT · DELETE for every record</text>
+    <!-- 3 form -->
+    <g filter="url(#soft)"><rect x="560" y="292" width="320" height="58" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
+    <rect x="574" y="304" width="22" height="22" rx="4" fill="none" stroke="#bd34fe" stroke-width="2"/><rect x="579" y="309" width="12" height="3.5" rx="1.5" fill="#bd34fe"/><rect x="579" y="316" width="8" height="3.5" rx="1.5" fill="#bd34fe"/>
+    <text x="622" y="318" fill="#f1f1f8">React form</text>
+    <text x="622" y="337" fill="#8585a3" font-size="11.5" font-weight="500">every field type rendered &amp; validated</text>
+    <!-- 4 list -->
+    <g filter="url(#soft)"><rect x="560" y="392" width="320" height="58" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
+    <rect x="574" y="404" width="22" height="22" rx="4" fill="none" stroke="#f59e0b" stroke-width="2"/><path d="M574 411 h22 M574 418 h22 M581 404 v22" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="622" y="418" fill="#f1f1f8">List view</text>
+    <text x="622" y="437" fill="#8585a3" font-size="11.5" font-weight="500">search · filters · pagination</text>
+    <!-- 5 controller -->
+    <g filter="url(#soft)"><rect x="560" y="482" width="320" height="58" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
+    <circle cx="585" cy="511" r="13" fill="none" stroke="#ff6b6b" stroke-width="2"/><path d="M585 503 v6 M585 513 v6 M577 511 h6 M587 511 h6" stroke="#ff6b6b" stroke-width="2" stroke-linecap="round"/>
+    <text x="622" y="508" fill="#f1f1f8">Controller</text>
+    <text x="622" y="527" fill="#8585a3" font-size="11.5" font-weight="500">lifecycle hooks: beforeSave, afterInsert…</text>
+    <!-- 6 desk -->
+    <g filter="url(#soft)"><rect x="330" y="540" width="320" height="46" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
+    <rect x="346" y="552" width="22" height="22" rx="5" fill="none" stroke="#6366f1" stroke-width="2"/><circle cx="357" cy="563" r="4" fill="#6366f1"/>
+    <text x="382" y="567" fill="#f1f1f8">Desk routes</text>
+    <text x="478" y="567" fill="#8585a3" font-size="11.5" font-weight="500">list · new · edit · view</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="612" y="38" width="216" height="34" rx="17" fill="#16162a" stroke="#34344f"/>
+    <path d="M632 55 l5 5 l9 -11" stroke="url(#loop)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="654" y="59" fill="#d8d8ea" font-size="12" font-weight="600">Loopar generates all of this</text>
+  </g>
+</svg>

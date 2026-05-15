@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 540" fill="none" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <defs>
+    <linearGradient id="loop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/><stop offset=".5" stop-color="#bd34fe"/><stop offset="1" stop-color="#41d1ff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d1d31"/><stop offset="1" stop-color="#14141f"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#bd34fe" stop-opacity=".55"/><stop offset="1" stop-color="#bd34fe" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0 L9 4.5 L0 9 z" fill="#5a5a82"/>
+    </marker>
+  </defs>
+
+  <!-- STAGE 1: Visual Designer -->
+  <g filter="url(#soft)">
+    <rect x="34" y="174" width="150" height="148" rx="16" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/>
+  </g>
+  <rect x="56" y="200" width="44" height="34" rx="7" fill="#23233a" stroke="#3a3a59"/>
+  <rect x="108" y="200" width="58" height="15" rx="5" fill="#2a2a45"/>
+  <rect x="108" y="220" width="42" height="14" rx="5" fill="#2a2a45"/>
+  <rect x="56" y="244" width="110" height="13" rx="5" fill="#2a2a45"/>
+  <path d="M132 260 l0 22 l6 -6 l5 10 l5 -2 l-5 -10 l9 0 z" fill="#fff"/>
+  <text x="109" y="304" text-anchor="middle" fill="#e6e6f2" font-size="14" font-weight="700">Visual Designer</text>
+  <text x="109" y="322" text-anchor="middle" fill="#7e7e9c" font-size="11">drag &amp; drop</text>
+
+  <line x1="186" y1="248" x2="232" y2="248" stroke="#5a5a82" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- STAGE 2: Entity -->
+  <g filter="url(#soft)">
+    <rect x="236" y="178" width="150" height="140" rx="16" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/>
+  </g>
+  <rect x="258" y="200" width="106" height="78" rx="8" fill="#16162a" stroke="#34344f"/>
+  <g font-family="ui-monospace,monospace" font-size="10">
+    <text x="268" y="218" fill="#41d1ff">{</text>
+    <text x="278" y="232" fill="#8b8ba7">name:</text><text x="318" y="232" fill="#10b981">"..."</text>
+    <text x="278" y="246" fill="#8b8ba7">fields:</text><text x="322" y="246" fill="#f59e0b">[..]</text>
+    <text x="278" y="260" fill="#8b8ba7">module:</text>
+    <text x="268" y="274" fill="#41d1ff">}</text>
+  </g>
+  <text x="311" y="300" text-anchor="middle" fill="#e6e6f2" font-size="14" font-weight="700">Entity</text>
+  <text x="311" y="318" text-anchor="middle" fill="#7e7e9c" font-size="11">one definition</text>
+
+  <line x1="388" y1="248" x2="430" y2="248" stroke="#5a5a82" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- STAGE 3: Loopar Engine -->
+  <ellipse cx="500" cy="248" rx="92" ry="92" fill="url(#coreGlow)"/>
+  <circle cx="500" cy="248" r="58" fill="url(#panel)" stroke="url(#loop)" stroke-width="2.5"/>
+  <circle cx="500" cy="248" r="40" fill="none" stroke="#3a3a59" stroke-width="1" stroke-dasharray="3 4"/>
+  <g stroke="#bd34fe" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M500 230 l0 36 M482 248 l36 0"/>
+    <path d="M487 235 l26 26 M513 235 l-26 26" opacity=".5"/>
+  </g>
+  <circle cx="500" cy="248" r="6" fill="url(#loop)"/>
+  <text x="500" y="332" text-anchor="middle" fill="#e6e6f2" font-size="14" font-weight="700">Loopar Engine</text>
+  <text x="500" y="350" text-anchor="middle" fill="#7e7e9c" font-size="11">parses · scaffolds · serves</text>
+
+  <!-- STAGE 4: generated artifacts -->
+  <g stroke="#5a5a82" stroke-width="2" fill="none">
+    <path d="M551 213 C 620 150, 640 110, 690 110" marker-end="url(#ar)"/>
+    <path d="M557 228 C 630 195, 640 178, 690 178" marker-end="url(#ar)"/>
+    <path d="M558 248 C 640 248, 648 248, 690 246" marker-end="url(#ar)"/>
+    <path d="M557 268 C 630 301, 640 314, 690 314" marker-end="url(#ar)"/>
+    <path d="M551 283 C 620 346, 640 382, 690 382" marker-end="url(#ar)"/>
+  </g>
+
+  <g font-size="12.5" font-weight="600">
+    <g><rect x="694" y="90" width="312" height="40" rx="11" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/>
+      <rect x="710" y="102" width="16" height="16" rx="3" fill="none" stroke="#41d1ff" stroke-width="2"/><path d="M710 108 h16 M710 113 h16" stroke="#41d1ff" stroke-width="1.3"/>
+      <text x="738" y="115" fill="#dcdcec">Database table + migration</text></g>
+    <g><rect x="694" y="158" width="312" height="40" rx="11" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/>
+      <path d="M714 170 l-6 8 l6 8 M722 170 l6 8 l-6 8" stroke="#10b981" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="738" y="183" fill="#dcdcec">REST API · CRUD endpoints</text></g>
+    <g><rect x="694" y="226" width="312" height="40" rx="11" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/>
+      <rect x="710" y="238" width="16" height="16" rx="3" fill="none" stroke="#bd34fe" stroke-width="2"/><rect x="713" y="241" width="10" height="3" fill="#bd34fe"/><rect x="713" y="247" width="7" height="3" fill="#bd34fe"/>
+      <text x="738" y="251" fill="#dcdcec">React form · all field types</text></g>
+    <g><rect x="694" y="294" width="312" height="40" rx="11" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/>
+      <rect x="710" y="306" width="16" height="16" rx="3" fill="none" stroke="#f59e0b" stroke-width="2"/><path d="M710 312 h16 M710 317 h16 M716 306 v16" stroke="#f59e0b" stroke-width="1.2"/>
+      <text x="738" y="319" fill="#dcdcec">List view · search &amp; filters</text></g>
+    <g><rect x="694" y="362" width="312" height="40" rx="11" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/>
+      <circle cx="718" cy="382" r="9" fill="none" stroke="#ff6b6b" stroke-width="2"/><path d="M718 376 v5 M718 384 v4 M712 382 h4 M720 382 h4" stroke="#ff6b6b" stroke-width="1.7" stroke-linecap="round"/>
+      <text x="738" y="387" fill="#dcdcec">Controller · lifecycle hooks</text></g>
+  </g>
+
+  <!-- running app bar -->
+  <g filter="url(#soft)">
+    <rect x="236" y="438" width="770" height="58" rx="14" fill="#17172b" stroke="#34344f" stroke-width="1.5"/>
+  </g>
+  <rect x="236" y="438" width="770" height="58" rx="14" fill="none" stroke="url(#loop)" stroke-width="1.4" opacity=".55"/>
+  <circle cx="276" cy="467" r="15" fill="url(#loop)"/>
+  <path d="M270 467 l5 5 l9 -10" stroke="#14141f" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="306" y="463" fill="#f1f1f8" font-size="15" font-weight="700">Production-ready application</text>
+  <text x="306" y="481" fill="#8585a3" font-size="11.5">routing · SSR · auth · multi-tenant — running on PM2 + Caddy</text>
+  <line x1="109" y1="322" x2="109" y2="467" stroke="#3a3a59" stroke-width="1.6" stroke-dasharray="4 5"/>
+  <line x1="109" y1="467" x2="234" y2="467" stroke="#3a3a59" stroke-width="1.6" stroke-dasharray="4 5"/>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 620" fill="none" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <defs>
+    <linearGradient id="loop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/><stop offset=".5" stop-color="#bd34fe"/><stop offset="1" stop-color="#41d1ff"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#222238"/><stop offset="1" stop-color="#15151f"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6d3df1" stop-opacity=".55"/><stop offset="1" stop-color="#6d3df1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#2a2a48"/><stop offset="1" stop-color="#16161f"/>
+    </radialGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+  </defs>
+
+  <!-- ambient glow -->
+  <ellipse cx="310" cy="310" rx="290" ry="290" fill="url(#coreGlow)"/>
+
+  <!-- orbit rings -->
+  <circle cx="310" cy="310" r="200" fill="none" stroke="#33334e" stroke-width="1.5"/>
+  <circle cx="310" cy="310" r="200" fill="none" stroke="url(#loop)" stroke-width="1.5" stroke-dasharray="2 12" opacity=".7"/>
+  <circle cx="310" cy="310" r="148" fill="none" stroke="#26263b" stroke-width="1" stroke-dasharray="3 7"/>
+
+  <!-- spokes (behind nodes) -->
+  <g stroke="#3a3a59" stroke-width="1.6">
+    <line x1="310" y1="310" x2="310" y2="110"/>
+    <line x1="310" y1="310" x2="483" y2="210"/>
+    <line x1="310" y1="310" x2="483" y2="410"/>
+    <line x1="310" y1="310" x2="310" y2="510"/>
+    <line x1="310" y1="310" x2="137" y2="410"/>
+    <line x1="310" y1="310" x2="137" y2="210"/>
+  </g>
+
+  <!-- ============ ORBIT NODES ============ -->
+  <!-- React (top) -->
+  <g filter="url(#soft)"><circle cx="310" cy="110" r="46" fill="url(#node)" stroke="#3d3d5c" stroke-width="1.5"/></g>
+  <g transform="translate(310 99)" stroke="#41d1ff" fill="none">
+    <circle cx="0" cy="0" r="2.6" fill="#41d1ff" stroke="none"/>
+    <ellipse cx="0" cy="0" rx="11" ry="4.3" stroke-width="1.6"/>
+    <ellipse cx="0" cy="0" rx="11" ry="4.3" stroke-width="1.6" transform="rotate(60)"/>
+    <ellipse cx="0" cy="0" rx="11" ry="4.3" stroke-width="1.6" transform="rotate(120)"/>
+  </g>
+  <text x="310" y="124" text-anchor="middle" fill="#e8e8f4" font-size="12.5" font-weight="600">React</text>
+
+  <!-- Vite (top-right) -->
+  <g filter="url(#soft)"><circle cx="483" cy="210" r="46" fill="url(#node)" stroke="#3d3d5c" stroke-width="1.5"/></g>
+  <path d="M486 196 l-9 1 l4 9 l-5 1 l8 13 l-1 -10 l5 -1 z" fill="#41d1ff"/>
+  <path d="M483 197 l-8 1 l9 21 z" fill="#bd34fe" opacity=".55"/>
+  <text x="483" y="226" text-anchor="middle" fill="#e8e8f4" font-size="12.5" font-weight="600">Vite</text>
+
+  <!-- Tailwind (bottom-right) -->
+  <g filter="url(#soft)"><circle cx="483" cy="410" r="46" fill="url(#node)" stroke="#3d3d5c" stroke-width="1.5"/></g>
+  <path d="M471 401 c3 -7 8 -10 14 -8 c4 1 6 4 9 7 c2 2 4 3 7 2 c3 -1 5 -3 6 -6 c-2 7 -7 10 -13 8 c-4 -1 -6 -4 -9 -7 c-2 -2 -4 -3 -7 -2 c-3 1 -5 3 -7 6 z" fill="#41d1ff"/>
+  <path d="M461 411 c3 -7 8 -10 14 -8 c4 1 6 4 9 7 c2 2 4 3 7 2 c3 -1 5 -3 6 -6 c-2 7 -7 10 -13 8 c-4 -1 -6 -4 -9 -7 c-2 -2 -4 -3 -7 -2 c-3 1 -5 3 -7 6 z" fill="#41d1ff" opacity=".5"/>
+  <text x="483" y="427" text-anchor="middle" fill="#e8e8f4" font-size="12" font-weight="600">Tailwind</text>
+
+  <!-- Knex (bottom) -->
+  <g filter="url(#soft)"><circle cx="310" cy="510" r="46" fill="url(#node)" stroke="#3d3d5c" stroke-width="1.5"/></g>
+  <g transform="translate(310 499)" stroke="#10b981" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-9 -7 l-5 7 l5 7"/><path d="M9 -7 l5 7 l-5 7"/><path d="M-2 -9 l4 18"/>
+  </g>
+  <text x="310" y="525" text-anchor="middle" fill="#e8e8f4" font-size="12.5" font-weight="600">Knex</text>
+
+  <!-- Node.js (bottom-left) -->
+  <g filter="url(#soft)"><circle cx="137" cy="410" r="46" fill="url(#node)" stroke="#3d3d5c" stroke-width="1.5"/></g>
+  <path d="M137 388 l11 6.5 v13 l-11 6.5 l-11 -6.5 v-13 z" fill="none" stroke="#10b981" stroke-width="1.8" stroke-linejoin="round"/>
+  <text x="137" y="384" text-anchor="middle" fill="#10b981" font-size="9" font-weight="700" opacity="0">n</text>
+  <text x="137" y="427" text-anchor="middle" fill="#e8e8f4" font-size="11.5" font-weight="600">Node.js</text>
+
+  <!-- AI (top-left) -->
+  <g filter="url(#soft)"><circle cx="137" cy="210" r="46" fill="url(#node)" stroke="#3d3d5c" stroke-width="1.5"/></g>
+  <path d="M137 188 l3.4 8.6 l8.6 3.4 l-8.6 3.4 l-3.4 8.6 l-3.4 -8.6 l-8.6 -3.4 l8.6 -3.4 z" fill="url(#loop)"/>
+  <path d="M150 186 l1.6 4 l4 1.6 l-4 1.6 l-1.6 4 l-1.6 -4 l-4 -1.6 l4 -1.6 z" fill="#41d1ff"/>
+  <text x="137" y="226" text-anchor="middle" fill="#e8e8f4" font-size="12.5" font-weight="600">AI</text>
+
+  <!-- ============ CENTER: LOOPAR ============ -->
+  <circle cx="310" cy="310" r="92" fill="url(#coreGlow)"/>
+  <g filter="url(#soft)">
+    <circle cx="310" cy="310" r="80" fill="url(#core)" stroke="url(#loop)" stroke-width="2.5"/>
+  </g>
+  <circle cx="310" cy="310" r="64" fill="none" stroke="#3a3a59" stroke-width="1" stroke-dasharray="2 5"/>
+  <!-- loopar mark: stylized infinite-loop diamond -->
+  <g transform="translate(310 286)">
+    <path d="M-15 0 l15 -13 l15 13 l-15 13 z" fill="none" stroke="url(#loop)" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="3.4" fill="url(#loop)"/>
+  </g>
+  <text x="310" y="330" text-anchor="middle" fill="#f4f4fb" font-size="23" font-weight="700" letter-spacing=".5">Loopar</text>
+  <text x="310" y="350" text-anchor="middle" fill="#8a8aa8" font-size="10.5" letter-spacing="1.5">META-FRAMEWORK</text>
+</svg>
