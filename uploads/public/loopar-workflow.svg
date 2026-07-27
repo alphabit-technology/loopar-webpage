@@ -1,116 +1,99 @@
-<svg width="820" height="680" viewBox="0 0 820 680" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Subtle inner border -->
-  <rect x="10" y="10" width="800" height="660" rx="8" fill="none" stroke="#cbd5e1" stroke-width="1"/>
-  
-  <!-- ===== TOP ROW: DEFINE → DESIGN → EXTEND ===== -->
-  
-  <!-- Step 1: DEFINE -->
-  <g transform="translate(140, 120)">
-    <text x="0" y="-55" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#10b981">1. DEFINE</text>
-    
-    <!-- Box with corner brackets style -->
-    <rect x="-80" y="-35" width="160" height="100" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
-    <!-- Corner accents -->
-    <path d="M-80,-35 L-80,-22 M-80,-35 L-67,-35" stroke="#3b82f6" stroke-width="3"/>
-    <path d="M80,-35 L80,-22 M80,-35 L67,-35" stroke="#3b82f6" stroke-width="3"/>
-    <path d="M-80,65 L-80,52 M-80,65 L-67,65" stroke="#3b82f6" stroke-width="3"/>
-    <path d="M80,65 L80,52 M80,65 L67,65" stroke="#3b82f6" stroke-width="3"/>
-    
-    <text x="0" y="-5" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Entity</text>
-    <text x="0" y="17" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Fields</text>
-    <text x="0" y="40" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">&amp; Types</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 560" fill="none" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <defs>
+    <linearGradient id="loop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/><stop offset=".5" stop-color="#bd34fe"/><stop offset="1" stop-color="#41d1ff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d1d31"/><stop offset="1" stop-color="#14141f"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0 L9 4.5 L0 9 z" fill="#5a5a82"/>
+    </marker>
+  </defs>
+
+  <!-- ============ STEP CARDS ============ -->
+  <!-- 1 - Define -->
+  <g filter="url(#soft)">
+    <rect x="50" y="40" width="260" height="120" rx="16" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/>
   </g>
-  
-  <!-- Arrow 1→2 -->
-  <g transform="translate(275, 120)">
-    <text x="0" y="15" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" fill="#3b82f6">→</text>
+  <text x="82" y="92" font-family="ui-monospace,monospace" font-size="17" font-weight="700" fill="#41d1ff">{ }</text>
+  <text x="82" y="126" fill="#e6e6f2" font-size="15" font-weight="700"><tspan fill="#41d1ff">1 &#183; </tspan>Define</text>
+  <text x="82" y="144" fill="#7e7e9c" font-size="11.5">entity structure &amp; types</text>
+
+  <!-- 2 - Design -->
+  <g filter="url(#soft)">
+    <rect x="380" y="40" width="260" height="120" rx="16" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/>
   </g>
-  
-  <!-- Step 2: DESIGN -->
-  <g transform="translate(410, 120)">
-    <text x="0" y="-55" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#10b981">2. DESIGN</text>
-    
-    <!-- Box with corner brackets style -->
-    <rect x="-80" y="-35" width="160" height="100" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
-    <!-- Corner accents -->
-    <path d="M-80,-35 L-80,-22 M-80,-35 L-67,-35" stroke="#8b5cf6" stroke-width="3"/>
-    <path d="M80,-35 L80,-22 M80,-35 L67,-35" stroke="#8b5cf6" stroke-width="3"/>
-    <path d="M-80,65 L-80,52 M-80,65 L-67,65" stroke="#8b5cf6" stroke-width="3"/>
-    <path d="M80,65 L80,52 M80,65 L67,65" stroke="#8b5cf6" stroke-width="3"/>
-    
-    <text x="0" y="-5" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Views</text>
-    <text x="0" y="17" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Drag &amp;</text>
-    <text x="0" y="40" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Drop</text>
+  <g stroke="#bd34fe" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M412 92 l16 -16 c2.5 -2.5 7 -2.5 9.5 0 c2.5 2.5 2.5 7 0 9.5 l-16 16 l-11.5 2 z"/>
+    <path d="M424 80 l7.5 7.5" stroke-width="1.4"/>
   </g>
-  
-  <!-- Arrow 2→3 -->
-  <g transform="translate(545, 120)">
-    <text x="0" y="15" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" fill="#8b5cf6">→</text>
+  <text x="412" y="126" fill="#e6e6f2" font-size="15" font-weight="700"><tspan fill="#bd34fe">2 &#183; </tspan>Design</text>
+  <text x="412" y="144" fill="#7e7e9c" font-size="11.5">views &#183; drag &amp; drop</text>
+
+  <!-- 3 - Extend -->
+  <g filter="url(#soft)">
+    <rect x="710" y="40" width="260" height="120" rx="16" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/>
   </g>
-  
-  <!-- Step 3: EXTEND -->
-  <g transform="translate(680, 120)">
-    <text x="0" y="-55" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#10b981">3. EXTEND</text>
-    
-    <!-- Box with corner brackets style -->
-    <rect x="-80" y="-35" width="160" height="100" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
-    <!-- Corner accents -->
-    <path d="M-80,-35 L-80,-22 M-80,-35 L-67,-35" stroke="#f59e0b" stroke-width="3"/>
-    <path d="M80,-35 L80,-22 M80,-35 L67,-35" stroke="#f59e0b" stroke-width="3"/>
-    <path d="M-80,65 L-80,52 M-80,65 L-67,65" stroke="#f59e0b" stroke-width="3"/>
-    <path d="M80,65 L80,52 M80,65 L67,65" stroke="#f59e0b" stroke-width="3"/>
-    
-    <text x="0" y="-5" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Logic</text>
-    <text x="0" y="17" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Custom</text>
-    <text x="0" y="40" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Code</text>
+  <g stroke="#10b981" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M748 74 l-8 10 l8 10 M764 74 l8 10 l-8 10 M759 70 l-6 28"/>
   </g>
-  
-  <!-- ===== VERTICAL ARROWS DOWN ===== -->
-  <text x="140" y="260" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" fill="#3b82f6">↓</text>
-  <text x="410" y="260" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" fill="#8b5cf6">↓</text>
-  <text x="680" y="260" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" fill="#f59e0b">↓</text>
-  
-  <!-- ===== AUTO-GENERATED BOX ===== -->
-  <g transform="translate(410, 370)">
-    <!-- Main container -->
-    <rect x="-300" y="-60" width="600" height="140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
-    <!-- Corner accents -->
-    <path d="M-300,-60 L-300,-42 M-300,-60 L-282,-60" stroke="#10b981" stroke-width="3"/>
-    <path d="M300,-60 L300,-42 M300,-60 L282,-60" stroke="#10b981" stroke-width="3"/>
-    <path d="M-300,80 L-300,62 M-300,80 L-282,80" stroke="#10b981" stroke-width="3"/>
-    <path d="M300,80 L300,62 M300,80 L282,80" stroke="#10b981" stroke-width="3"/>
-    
-    <!-- Title -->
-    <text x="0" y="-30" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#10b981">AUTO-GENERATED</text>
-    
-    <!-- Left column -->
-    <text x="-150" y="5" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#d25d0a">• Database Schema</text>
-    <text x="-150" y="30" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#d25d0a">• Sequelize Models</text>
-    <text x="-150" y="55" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#d25d0a">• React Components</text>
-    
-    <!-- Right column -->
-    <text x="150" y="5" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#d25d0a">• REST API Endpoints</text>
-    <text x="150" y="30" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#d25d0a">• Form Validation</text>
-    <text x="150" y="55" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#d25d0a">• Route Configuration</text>
+  <text x="742" y="126" fill="#e6e6f2" font-size="15" font-weight="700"><tspan fill="#10b981">3 &#183; </tspan>Extend</text>
+  <text x="742" y="144" fill="#7e7e9c" font-size="11.5">logic &#183; custom code</text>
+
+  <!-- arrows between steps -->
+  <g stroke="#5a5a82" stroke-width="2" fill="none">
+    <line x1="316" y1="100" x2="372" y2="100" marker-end="url(#ar)"/>
+    <line x1="646" y1="100" x2="702" y2="100" marker-end="url(#ar)"/>
   </g>
-  
-  <!-- ===== ARROW DOWN TO DEPLOY ===== -->
-  <text x="410" y="500" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" fill="#10b981">↓</text>
-  
-  <!-- ===== DEPLOY BOX ===== -->
-  <g transform="translate(410, 590)">
-    <text x="0" y="-50" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#10b981">4. DEPLOY</text>
-    
-    <!-- Box with corner brackets style -->
-    <rect x="-90" y="-35" width="180" height="80" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
-    <!-- Corner accents -->
-    <path d="M-90,-35 L-90,-20 M-90,-35 L-75,-35" stroke="#10b981" stroke-width="3"/>
-    <path d="M90,-35 L90,-20 M90,-35 L75,-35" stroke="#10b981" stroke-width="3"/>
-    <path d="M-90,45 L-90,30 M-90,45 L-75,45" stroke="#10b981" stroke-width="3"/>
-    <path d="M90,45 L90,30 M90,45 L75,45" stroke="#10b981" stroke-width="3"/>
-    
-    <text x="0" y="0" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Production</text>
-    <text x="0" y="25" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#d25d0a">Ready</text>
+
+  <!-- arrows converging into auto-generated -->
+  <g stroke="#5a5a82" stroke-width="2" fill="none">
+    <path d="M180 166 C 180 198, 210 206, 280 213" marker-end="url(#ar)"/>
+    <line x1="510" y1="166" x2="510" y2="212" marker-end="url(#ar)"/>
+    <path d="M840 166 C 840 198, 810 206, 740 213" marker-end="url(#ar)"/>
   </g>
-  
+
+  <!-- ============ AUTO-GENERATED PANEL ============ -->
+  <g filter="url(#soft)">
+    <rect x="120" y="222" width="780" height="176" rx="16" fill="url(#panel)" stroke="#34344f" stroke-width="1.5"/>
+  </g>
+  <text x="510" y="254" text-anchor="middle" fill="#8a8aa8" font-size="11.5" font-weight="700" letter-spacing="2.5">AUTO-GENERATED</text>
+
+  <g font-size="12.5" font-weight="600">
+    <g><rect x="150" y="272" width="230" height="40" rx="11" fill="#16162a" stroke="#2c2c44" stroke-width="1.2"/>
+      <circle cx="172" cy="292" r="4" fill="#41d1ff"/>
+      <text x="188" y="297" fill="#dcdcec">Database schema</text></g>
+    <g><rect x="395" y="272" width="230" height="40" rx="11" fill="#16162a" stroke="#2c2c44" stroke-width="1.2"/>
+      <circle cx="417" cy="292" r="4" fill="#10b981"/>
+      <text x="433" y="297" fill="#dcdcec">Document models</text></g>
+    <g><rect x="640" y="272" width="230" height="40" rx="11" fill="#16162a" stroke="#2c2c44" stroke-width="1.2"/>
+      <circle cx="662" cy="292" r="4" fill="#bd34fe"/>
+      <text x="678" y="297" fill="#dcdcec">React components</text></g>
+    <g><rect x="150" y="328" width="230" height="40" rx="11" fill="#16162a" stroke="#2c2c44" stroke-width="1.2"/>
+      <circle cx="172" cy="348" r="4" fill="#f59e0b"/>
+      <text x="188" y="353" fill="#dcdcec">HTTP API actions</text></g>
+    <g><rect x="395" y="328" width="230" height="40" rx="11" fill="#16162a" stroke="#2c2c44" stroke-width="1.2"/>
+      <circle cx="417" cy="348" r="4" fill="#ff6b6b"/>
+      <text x="433" y="353" fill="#dcdcec">Form validation</text></g>
+    <g><rect x="640" y="328" width="230" height="40" rx="11" fill="#16162a" stroke="#2c2c44" stroke-width="1.2"/>
+      <circle cx="662" cy="348" r="4" fill="#41d1ff"/>
+      <text x="678" y="353" fill="#dcdcec">Route configuration</text></g>
+  </g>
+
+  <!-- arrow down to deploy -->
+  <line x1="510" y1="402" x2="510" y2="448" stroke="#5a5a82" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- ============ DEPLOY BAR ============ -->
+  <g filter="url(#soft)">
+    <rect x="120" y="456" width="780" height="58" rx="14" fill="#17172b" stroke="#34344f" stroke-width="1.5"/>
+  </g>
+  <rect x="120" y="456" width="780" height="58" rx="14" fill="none" stroke="url(#loop)" stroke-width="1.4" opacity=".55"/>
+  <circle cx="160" cy="485" r="15" fill="url(#loop)"/>
+  <path d="M154 485 l5 5 l9 -10" stroke="#14141f" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="481" fill="#f1f1f8" font-size="15" font-weight="700"><tspan fill="#bd34fe">4 &#183; </tspan>Deploy</text>
+  <text x="190" y="499" fill="#8585a3" font-size="11.5">production-ready &#8212; versioned build, served under PM2 + Caddy</text>
 </svg>

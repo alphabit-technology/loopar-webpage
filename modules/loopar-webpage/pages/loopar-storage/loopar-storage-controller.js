@@ -1,9 +1,8 @@
-
 'use strict';
 
 import {PageController} from 'loopar';
 
-export default class LooparBlogController extends PageController {
+export default class LooparStorageController extends PageController {
     constructor(props){
         super(props);
     }

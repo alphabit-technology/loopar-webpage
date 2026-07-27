@@ -41,10 +41,10 @@
     <text x="60" y="240" fill="#5a5a82">1</text><text x="84" y="240" fill="#c7c7da">{</text>
     <text x="60" y="258" fill="#5a5a82">2</text><text x="96" y="258" fill="#8b8ba7">"name"</text><text x="142" y="258" fill="#c7c7da">:</text><text x="152" y="258" fill="#10b981">"Customer"</text><text x="222" y="258" fill="#c7c7da">,</text>
     <text x="60" y="276" fill="#5a5a82">3</text><text x="96" y="276" fill="#8b8ba7">"module"</text><text x="152" y="276" fill="#c7c7da">:</text><text x="162" y="276" fill="#10b981">"CRM"</text><text x="200" y="276" fill="#c7c7da">,</text>
-    <text x="60" y="294" fill="#5a5a82">4</text><text x="96" y="294" fill="#8b8ba7">"fields"</text><text x="152" y="294" fill="#c7c7da">: [</text>
-    <text x="60" y="312" fill="#5a5a82">5</text><text x="112" y="312" fill="#c7c7da">{ name:</text><text x="168" y="312" fill="#41d1ff">"name"</text><text x="210" y="312" fill="#c7c7da">},</text>
-    <text x="60" y="330" fill="#5a5a82">6</text><text x="112" y="330" fill="#c7c7da">{ name:</text><text x="168" y="330" fill="#41d1ff">"email"</text><text x="214" y="330" fill="#c7c7da">},</text>
-    <text x="60" y="348" fill="#5a5a82">7</text><text x="112" y="348" fill="#c7c7da">{ name:</text><text x="168" y="348" fill="#41d1ff">"status"</text><text x="220" y="348" fill="#c7c7da">}</text>
+    <text x="60" y="294" fill="#5a5a82">4</text><text x="96" y="294" fill="#8b8ba7">"structure"</text><text x="176" y="294" fill="#c7c7da">: [</text>
+    <text x="60" y="312" fill="#5a5a82">5</text><text x="112" y="312" fill="#c7c7da">{ input:</text><text x="176" y="312" fill="#41d1ff">"name"</text><text x="218" y="312" fill="#c7c7da">},</text>
+    <text x="60" y="330" fill="#5a5a82">6</text><text x="112" y="330" fill="#c7c7da">{ input:</text><text x="176" y="330" fill="#41d1ff">"email"</text><text x="222" y="330" fill="#c7c7da">},</text>
+    <text x="60" y="348" fill="#5a5a82">7</text><text x="112" y="348" fill="#c7c7da">{ select:</text><text x="184" y="348" fill="#41d1ff">"status"</text><text x="236" y="348" fill="#c7c7da">}</text>
     <text x="60" y="366" fill="#5a5a82">8</text><text x="96" y="366" fill="#c7c7da">]</text>
     <text x="60" y="384" fill="#5a5a82">9</text><text x="84" y="384" fill="#c7c7da">}</text>
   </g>
@@ -64,8 +64,8 @@
     <!-- 2 api -->
     <g filter="url(#soft)"><rect x="560" y="192" width="320" height="58" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
     <path d="M584 206 l-10 15 l10 15 M600 206 l10 15 l-10 15" stroke="#10b981" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="622" y="218" fill="#f1f1f8">REST API</text>
-    <text x="622" y="237" fill="#8585a3" font-size="11.5" font-weight="500">GET · POST · PUT · DELETE for every record</text>
+    <text x="622" y="218" fill="#f1f1f8">HTTP API</text>
+    <text x="622" y="237" fill="#8585a3" font-size="11.5" font-weight="500">list · view · create · update · delete</text>
     <!-- 3 form -->
     <g filter="url(#soft)"><rect x="560" y="292" width="320" height="58" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
     <rect x="574" y="304" width="22" height="22" rx="4" fill="none" stroke="#bd34fe" stroke-width="2"/><rect x="579" y="309" width="12" height="3.5" rx="1.5" fill="#bd34fe"/><rect x="579" y="316" width="8" height="3.5" rx="1.5" fill="#bd34fe"/>
@@ -79,13 +79,13 @@
     <!-- 5 controller -->
     <g filter="url(#soft)"><rect x="560" y="482" width="320" height="58" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
     <circle cx="585" cy="511" r="13" fill="none" stroke="#ff6b6b" stroke-width="2"/><path d="M585 503 v6 M585 513 v6 M577 511 h6 M587 511 h6" stroke="#ff6b6b" stroke-width="2" stroke-linecap="round"/>
-    <text x="622" y="508" fill="#f1f1f8">Controller</text>
-    <text x="622" y="527" fill="#8585a3" font-size="11.5" font-weight="500">lifecycle hooks: beforeSave, afterInsert…</text>
+    <text x="622" y="508" fill="#f1f1f8">Model &amp; Controller</text>
+    <text x="622" y="527" fill="#8585a3" font-size="11.5" font-weight="500">hooks: beforeSave, afterSave · actions</text>
     <!-- 6 desk -->
     <g filter="url(#soft)"><rect x="330" y="540" width="320" height="46" rx="13" fill="url(#panel)" stroke="#34344f" stroke-width="1.4"/></g>
     <rect x="346" y="552" width="22" height="22" rx="5" fill="none" stroke="#6366f1" stroke-width="2"/><circle cx="357" cy="563" r="4" fill="#6366f1"/>
     <text x="382" y="567" fill="#f1f1f8">Desk routes</text>
-    <text x="478" y="567" fill="#8585a3" font-size="11.5" font-weight="500">list · new · edit · view</text>
+    <text x="478" y="567" fill="#8585a3" font-size="11.5" font-weight="500">list · create · update · view</text>
   </g>
 
   <g filter="url(#soft)">

@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "2.0.41"
+    "version": "2.3.0"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,7 +17,7 @@
       "type": "Web App",
       "name": "loopar-webpage",
       "description": "Loopar WebPage",
-      "version": "2.0.41",
+      "version": "2.3.0",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Infinity",
       "spacing": 3,
@@ -32,122 +32,162 @@
       "logo_width": 2,
       "logo_height": "",
       "has_footer": 1,
-      "footer": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 20px; gap: 30px;\">\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>🚀 Loopar</h3>\r\n    <p>The meta-framework for building full-stack applications visually. Create complete apps with drag-and-drop, no complex setup required.</p>\r\n    <p><strong>📦 GitHub:</strong> <a href=\"https://github.com/alphabit-technology/loopar\">github.com/alphabit-technology/loopar</a></p>\r\n    <p><strong>✉️ Contact:</strong> <a href=\"mailto:hello@loopar.build\">[hello@loopar.build](mailto\\:hello@loopar.build)</a></p>\r\n  </div>\r\n\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>⚡ Features</h3>\r\n\r\n    <ul>\r\n      <li>Visual drag-and-drop builder</li>\r\n      <li>Auto-recursive Entity architecture</li>\r\n      <li>Multi-database support (MySQL, PostgreSQL, SQLite)</li>\r\n      <li>Multi-tenant ready</li>\r\n      <li>React + Vite + Tailwind CSS</li>\r\n      <li>Zero-config deployment</li>\r\n    </ul>\r\n  </div>\r\n\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>📚 Resources</h3>\r\n\r\n    <ul>\r\n      <li><a href=\"/doc\">Documentation</a></li>\r\n      <li><a href=\"/doc/getting-started\">Getting Started</a></li>\r\n      <li><a href=\"/doc/Concepts\">Concepts</a></li>\r\n      <li><a href=\"https://github.com/alphabit-technology/loopar-framework/discussions\">Community</a></li>\r\n    </ul>\r\n  </div>\r\n</div>",
+      "footer": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 20px; gap: 30px;\">\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>🚀 Loopar</h3>\r\n    <p>The meta-framework for building full-stack applications visually. Create complete apps with drag-and-drop, no complex setup required.</p>\r\n    <p><strong>📦 GitHub:</strong> <a href=\"https://github.com/alphabit-technology/loopar-framework\">github.com/alphabit-technology/loopar-framework</a></p>\r\n    <p><strong>✉️ Contact:</strong> <a href=\"mailto:hello@loopar.build\">hello@loopar.build</a></p>\r\n  </div>\r\n\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>⚡ Features</h3>\r\n\r\n    <ul>\r\n      <li>Visual drag-and-drop builder</li>\r\n      <li>Auto-recursive Entity architecture</li>\r\n      <li>Multi-database support (MySQL, PostgreSQL, SQLite)</li>\r\n      <li>Multi-tenant ready</li>\r\n      <li>React + Vite + Tailwind CSS</li>\r\n      <li>Zero-config deployment</li>\r\n    </ul>\r\n  </div>\r\n\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>📚 Resources</h3>\r\n\r\n    <ul>\r\n      <li><a href=\"/doc\">Documentation</a></li>\r\n      <li><a href=\"/getting-started\">Getting Started</a></li>\r\n      <li><a href=\"/concepts\">Concepts</a></li>\r\n      <li><a href=\"https://github.com/alphabit-technology/loopar-framework/discussions\">Community</a></li>\r\n    </ul>\r\n  </div>\r\n</div>",
       "has_copyright": 1,
-      "copyright": "***\r\n\r\n<div style=\"text-align: center; padding: 10px; font-size: 0.9em;\">\r\n  <p>© 2025 <strong>Loopar</strong>. All rights reserved. | Made with ❤️ by <a href=\"https://github.com/alphabit-technology\">Alphabit Technology</a></p>\r\n  <p>Open Source under MIT License</p>\r\n</div>",
+      "copyright": "***\r\n\r\n<div style=\"text-align: center; padding: 10px; font-size: 0.9em;\">\r\n  <p>© 2026 <strong>Loopar</strong>. All rights reserved. | Made with ❤️ by <a href=\"https://github.com/alphabit-technology\">Alphabit Technology</a></p>\r\n  <p>Open Source under MIT License</p>\r\n</div>",
       "fixed": 1,
       "logo_position": "",
       "rounded": "full",
+      "show_user_section": 0,
       "solid": 1,
       "opacity": "",
       "menu_items": [
         {
           "parent_document": "App",
-          "name": "S2stJAxTXo49p7C",
+          "name": "ttE23NHqZmf4lAa",
           "page": "Loopar Home",
           "link": "Home",
           "parent_menu": "",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "uNLZg6YJTvxBMy8",
+          "name": "P555mReFLw15Mxl",
           "page": "Loopar Introduction",
           "link": "Doc",
           "parent_menu": "",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "mnB4Y35qgC10HUt",
+          "name": "Envb9wXE6YZ2MWQ",
           "page": "Loopar Introduction",
           "link": "Introduction",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "dWl3wZrQI8Dh7b8",
+          "name": "mp1v66bU6P22Xut",
           "page": "Getting Started",
           "link": "Getting Started",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "ZW6D92H2fg8u8AJ",
+          "name": "kq2by1c57KFVAWu",
           "page": "Loopar Concepts",
           "link": "Concepts",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "Up4t52q8e78Rdvl",
+          "name": "VafOns5US594MNW",
           "page": "Learn",
           "link": "Learn",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "Tnysxbf8289lkw8",
+          "name": "Qi4wkux2u6qNTvA",
+          "page": "Loopar Designer",
+          "link": "Designer",
+          "parent_menu": "Doc",
+          "document_parent_name": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "name": "eieTmXQDs24qjy2",
           "page": "Loopar Components",
           "link": "Components",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "oDkQtHfS88O9L6A",
+          "name": "dcVQi1d26Z072tv",
           "page": "Loopar Api Reference",
           "link": "Api Reference",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "yNh7H6K2xy4GFWt",
+          "name": "k7r5td9vnolqjxc",
           "page": "Loopar Authentication",
           "link": "Authentication",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "shp825k6AnOKJ1Y",
+          "name": "msaxgVh9p2EJYTD",
           "page": "Loopar Email",
           "link": "Email",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "OQ6BbS2e2MyG8kv",
+          "name": "kf0rC7n2E63k5ua",
           "page": "Loopar Examples",
           "link": "Examples",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
-          "name": "A6Eg88x9Q4JNWY1",
+          "name": "Qvmf6i1d2jl6hbe",
+          "page": "Loopar Storage",
+          "link": "Storage",
+          "parent_menu": "Doc",
+          "document_parent_name": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "name": "GbD1I59cu2njH0s",
+          "page": "Loopar Analytics",
+          "link": "Analytics",
+          "parent_menu": "Doc",
+          "document_parent_name": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "name": "s2iPdEBgrLofhw1",
           "page": "Loopar Deployment",
           "link": "Deployment",
           "parent_menu": "Doc",
-          "document_parent_name": null
+          "document_parent_name": null,
+          "router_only": 0
         }
       ],
       "menu_actions": [
         {
           "parent_document": "App",
-          "name": "F7vXZ2GIM8HVFN0",
+          "name": "S47sBICpx61T67Z",
           "icon": "SiX",
           "action": "https://x.com/LooparBuild"
         },
         {
           "parent_document": "App",
-          "name": "e5829LPIUsfhcg7",
+          "name": "BvM7Be2a6I8qk6V",
           "icon": "SiGithub",
           "action": "https://github.com/alphabit-technology/loopar-framework.git"
         }
@@ -170,8 +210,8 @@
       "icon": "Infinity",
       "in_sidebar": 1
     },
-    "Page Builder:Info": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/info"
+    "Page Builder:Loopar Home": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-home"
     },
     "Entity:Menu Item": {
       "__app__": "loopar"
@@ -179,8 +219,8 @@
     "Entity:Menu Action": {
       "__app__": "loopar"
     },
-    "Page Builder:Loopar Home": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-home"
+    "Page Builder:Loopar Introduction": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-introduction"
     },
     "Module:loopar-webpage": {
       "name": "loopar-webpage",
@@ -189,6 +229,9 @@
       "module_group": "modules",
       "icon": "Infinity",
       "in_sidebar": 1
+    },
+    "Page Builder:Loopar Analytics": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-analytics"
     },
     "Page Builder:Loopar Api Reference": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-api-reference"
@@ -205,20 +248,11 @@
     "Page Builder:Loopar Email": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-email"
     },
-    "Page Builder:Loopar Blog": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-blog"
-    },
-    "Page Builder:Loopar Installation": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-installation"
-    },
-    "Page Builder:Loopar Doc": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-doc"
+    "Page Builder:Loopar Storage": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-storage"
     },
     "Page Builder:Loopar Concepts": {
       "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-concepts"
-    },
-    "Page Builder:Loopar Introduction": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-introduction"
     },
     "Page Builder:Getting Started": {
       "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/getting-started"
@@ -228,6 +262,9 @@
     },
     "Page Builder:Loopar Examples": {
       "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-examples"
+    },
+    "Page Builder:Loopar Designer": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-designer"
     }
   },
   "postInstaller": {
